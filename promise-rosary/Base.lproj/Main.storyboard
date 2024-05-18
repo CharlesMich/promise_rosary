@@ -3618,7 +3618,7 @@ for Teens</string>
                                 <rect key="frame" x="0.0" y="103" width="393" height="666"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="nJl-lU-ALh">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="2845.6666666666665"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="3904"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Rr-Z2-HDm">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="62"/>
@@ -3629,7 +3629,7 @@ for Teens</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tri-an-w0d">
                                                 <rect key="frame" x="0.0" y="62" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="glory-be-1" translatesAutoresizingMaskIntoConstraints="NO" id="yNm-ZI-Em6">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gb-appicon-img" translatesAutoresizingMaskIntoConstraints="NO" id="yNm-ZI-Em6">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -3678,39 +3678,16 @@ for Teens</string>
                                                     <constraint firstItem="6cY-DS-FtD" firstAttribute="top" secondItem="rSG-zI-leB" secondAttribute="top" id="xCf-Rb-SlL"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ob-Ne-oCh">
-                                                <rect key="frame" x="0.0" y="443.66666666666663" width="393" height="62"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dvt-vm-4d7">
-                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="62"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Get App">
-                                                            <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                                            <color key="baseForegroundColor" red="0.24313725489999999" green="0.70588235290000001" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="glory_be_button:" destination="fi7-D7-5ca" eventType="touchUpInside" id="X3l-Gq-FSw"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="Dvt-vm-4d7" secondAttribute="bottom" id="2Xw-nf-BZ0"/>
-                                                    <constraint firstItem="Dvt-vm-4d7" firstAttribute="leading" secondItem="3ob-Ne-oCh" secondAttribute="leading" id="4m8-ni-4qo"/>
-                                                    <constraint firstAttribute="trailing" secondItem="Dvt-vm-4d7" secondAttribute="trailing" id="5ge-Bi-gPz"/>
-                                                    <constraint firstAttribute="height" constant="62" id="8PI-Hn-2eY"/>
-                                                    <constraint firstItem="Dvt-vm-4d7" firstAttribute="top" secondItem="3ob-Ne-oCh" secondAttribute="top" id="bSm-YK-RFg"/>
-                                                </constraints>
-                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BZi-5g-D27">
-                                                <rect key="frame" x="0.0" y="505.66666666666663" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="443.66666666666663" width="393" height="62"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="62" id="fyC-YZ-LB1"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vGC-Ev-XX6">
-                                                <rect key="frame" x="0.0" y="567.66666666666663" width="393" height="200"/>
+                                                <rect key="frame" x="0.0" y="505.66666666666663" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sr-iconimages" translatesAutoresizingMaskIntoConstraints="NO" id="BXE-sW-Cc4">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sr-appicon-img" translatesAutoresizingMaskIntoConstraints="NO" id="BXE-sW-Cc4">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -3723,7 +3700,7 @@ for Teens</string>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cof-OL-h1e">
-                                                <rect key="frame" x="0.0" y="767.66666666666663" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="705.66666666666663" width="393" height="62"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scriptural Rosary " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzc-Pj-tDX">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="62"/>
@@ -3741,7 +3718,7 @@ for Teens</string>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="69c-dw-DgX">
-                                                <rect key="frame" x="0.0" y="829.66666666666663" width="393" height="119.66666666666663"/>
+                                                <rect key="frame" x="0.0" y="767.66666666666663" width="393" height="119.66666666666663"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Includes the 4 traditional mysteries and with over 1000 verses, covers a range of spiritial topics to meditate on." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GQQ-Sl-kTo">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="119.66666666666667"/>
@@ -3758,39 +3735,16 @@ for Teens</string>
                                                     <constraint firstItem="GQQ-Sl-kTo" firstAttribute="top" secondItem="69c-dw-DgX" secondAttribute="top" id="xYN-Fe-h7m"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D71-Zr-UTY">
-                                                <rect key="frame" x="0.0" y="949.33333333333326" width="393" height="62"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GwS-77-cQ7">
-                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="62"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Get App">
-                                                            <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                                            <color key="baseForegroundColor" red="0.24313725489999999" green="0.70588235290000001" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="sr1_button:" destination="fi7-D7-5ca" eventType="touchUpInside" id="tpg-k2-vQ9"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="GwS-77-cQ7" secondAttribute="bottom" id="9XF-lH-cZy"/>
-                                                    <constraint firstItem="GwS-77-cQ7" firstAttribute="leading" secondItem="D71-Zr-UTY" secondAttribute="leading" id="Agf-HW-QHx"/>
-                                                    <constraint firstAttribute="trailing" secondItem="GwS-77-cQ7" secondAttribute="trailing" id="a2X-En-dJo"/>
-                                                    <constraint firstAttribute="height" constant="62" id="l9Q-iB-Y57"/>
-                                                    <constraint firstItem="GwS-77-cQ7" firstAttribute="top" secondItem="D71-Zr-UTY" secondAttribute="top" id="snX-UU-ry6"/>
-                                                </constraints>
-                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="obh-oQ-dJz">
-                                                <rect key="frame" x="0.0" y="1011.3333333333333" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="887.33333333333337" width="393" height="62"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="62" id="9NT-aX-d8g"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ae-Qy-mTw">
-                                                <rect key="frame" x="0.0" y="1073.3333333333333" width="393" height="200"/>
+                                                <rect key="frame" x="0.0" y="949.33333333333326" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ssotc-iconimages" translatesAutoresizingMaskIntoConstraints="NO" id="6uj-gO-CII">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ssotc_appicon-img" translatesAutoresizingMaskIntoConstraints="NO" id="6uj-gO-CII">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -3803,7 +3757,7 @@ for Teens</string>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5B6-Yz-kMl">
-                                                <rect key="frame" x="0.0" y="1273.3333333333333" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="1149.3333333333333" width="393" height="62"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scriptural Stations of the Cross" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mz2-Sw-vpg">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="62"/>
@@ -3821,7 +3775,7 @@ for Teens</string>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uSm-1O-Bne">
-                                                <rect key="frame" x="0.0" y="1335.3333333333333" width="393" height="115"/>
+                                                <rect key="frame" x="0.0" y="1211.3333333333333" width="393" height="115"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Includes the traditional Way of the Cross and two forms of scriptural Stations and other meditations on the passion of Christ." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAu-cv-hnl">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="115"/>
@@ -3838,39 +3792,16 @@ for Teens</string>
                                                     <constraint firstAttribute="bottom" secondItem="vAu-cv-hnl" secondAttribute="bottom" id="XGn-Xb-gke"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tCf-sQ-GCl">
-                                                <rect key="frame" x="0.0" y="1450.3333333333333" width="393" height="62"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQM-eh-4a2">
-                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="62"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Get App">
-                                                            <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                                            <color key="baseForegroundColor" red="0.24313725489999999" green="0.70588235290000001" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="ssotc_button:" destination="fi7-D7-5ca" eventType="touchUpInside" id="Bq2-Hf-CDO"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstAttribute="trailing" secondItem="gQM-eh-4a2" secondAttribute="trailing" id="0EV-xd-qIv"/>
-                                                    <constraint firstItem="gQM-eh-4a2" firstAttribute="top" secondItem="tCf-sQ-GCl" secondAttribute="top" id="4jh-pe-ykb"/>
-                                                    <constraint firstAttribute="height" constant="62" id="I2C-ny-FcV"/>
-                                                    <constraint firstAttribute="bottom" secondItem="gQM-eh-4a2" secondAttribute="bottom" id="ZN1-Mu-I6b"/>
-                                                    <constraint firstItem="gQM-eh-4a2" firstAttribute="leading" secondItem="tCf-sQ-GCl" secondAttribute="leading" id="jxd-4u-cIr"/>
-                                                </constraints>
-                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MsL-ih-IDg">
-                                                <rect key="frame" x="0.0" y="1512.3333333333333" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="1326.3333333333333" width="393" height="62"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="62" id="boc-ii-Vrs"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dd3-zD-HYz">
-                                                <rect key="frame" x="0.0" y="1574.3333333333333" width="393" height="200"/>
+                                                <rect key="frame" x="0.0" y="1388.3333333333333" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jr-iconimages" translatesAutoresizingMaskIntoConstraints="NO" id="cMX-z9-hUN">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jr-appicon-img" translatesAutoresizingMaskIntoConstraints="NO" id="cMX-z9-hUN">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -3883,7 +3814,7 @@ for Teens</string>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9XO-1A-FYU">
-                                                <rect key="frame" x="0.0" y="1774.3333333333333" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="1588.3333333333333" width="393" height="62"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jesus Rosary" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xuI-Kf-cTC">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="62"/>
@@ -3901,7 +3832,7 @@ for Teens</string>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yaB-Oe-uSn">
-                                                <rect key="frame" x="0.0" y="1836.3333333333333" width="393" height="210.33333333333326"/>
+                                                <rect key="frame" x="0.0" y="1650.3333333333333" width="393" height="210.33333333333326"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k54-XH-5Ln">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="210.33333333333334"/>
@@ -3919,39 +3850,16 @@ for Teens</string>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" id="XOR-Rq-SU1"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b30-Ut-yZN">
-                                                <rect key="frame" x="0.0" y="2046.6666666666665" width="393" height="62"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3y4-WJ-New">
-                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="62"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Get App">
-                                                            <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                                            <color key="baseForegroundColor" red="0.24313725489999999" green="0.70588235290000001" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="jr_button:" destination="fi7-D7-5ca" eventType="touchUpInside" id="yBe-nc-dbn"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstItem="3y4-WJ-New" firstAttribute="top" secondItem="b30-Ut-yZN" secondAttribute="top" id="5HH-US-38O"/>
-                                                    <constraint firstItem="3y4-WJ-New" firstAttribute="leading" secondItem="b30-Ut-yZN" secondAttribute="leading" id="A6C-MO-YxG"/>
-                                                    <constraint firstAttribute="bottom" secondItem="3y4-WJ-New" secondAttribute="bottom" id="DXI-AO-sEw"/>
-                                                    <constraint firstAttribute="trailing" secondItem="3y4-WJ-New" secondAttribute="trailing" id="Zg4-90-BjT"/>
-                                                    <constraint firstAttribute="height" constant="62" id="nWD-t9-wPW"/>
-                                                </constraints>
-                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MBh-eH-boN">
-                                                <rect key="frame" x="0.0" y="2108.6666666666665" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="1860.6666666666667" width="393" height="62"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="62" id="Jar-YH-YET"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gvM-hO-6Ts">
-                                                <rect key="frame" x="0.0" y="2170.6666666666665" width="393" height="200"/>
+                                                <rect key="frame" x="0.0" y="1922.6666666666667" width="393" height="200.00000000000023"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EA-iconimages" translatesAutoresizingMaskIntoConstraints="NO" id="9E8-NU-SnN">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ea-appicon-img" translatesAutoresizingMaskIntoConstraints="NO" id="9E8-NU-SnN">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -3964,7 +3872,7 @@ for Teens</string>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dhT-9P-alI">
-                                                <rect key="frame" x="0.0" y="2370.6666666666665" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="2122.6666666666665" width="393" height="62"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eucharistic Adoration" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDi-cn-3yD">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="62"/>
@@ -3982,7 +3890,7 @@ for Teens</string>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ic-oS-eEm">
-                                                <rect key="frame" x="0.0" y="2432.6666666666665" width="393" height="289"/>
+                                                <rect key="frame" x="0.0" y="2184.6666666666665" width="393" height="289"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhR-bo-HVD">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="289"/>
@@ -4000,33 +3908,183 @@ for Teens</string>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" id="oan-YT-Vn2"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5E1-SB-4Wt">
-                                                <rect key="frame" x="0.0" y="2721.6666666666665" width="393" height="62"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WVd-bw-ZXC">
+                                                <rect key="frame" x="0.0" y="2473.6666666666665" width="393" height="62"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="62" id="xoY-QK-o0b"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="40T-IH-IXR">
+                                                <rect key="frame" x="0.0" y="2535.6666666666665" width="393" height="200"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDi-Ic-ATc">
-                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="62"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Get App">
-                                                            <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                                            <color key="baseForegroundColor" red="0.24313725489999999" green="0.70588235290000001" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="ea_button:" destination="fi7-D7-5ca" eventType="touchUpInside" id="aAx-ws-erf"/>
-                                                        </connections>
-                                                    </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fam_pra-appicon-img" translatesAutoresizingMaskIntoConstraints="NO" id="4Vl-ez-XS2">
+                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
+                                                    </imageView>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstItem="JDi-Ic-ATc" firstAttribute="top" secondItem="5E1-SB-4Wt" secondAttribute="top" id="Byw-Lv-I0t"/>
-                                                    <constraint firstItem="JDi-Ic-ATc" firstAttribute="leading" secondItem="5E1-SB-4Wt" secondAttribute="leading" id="QEk-2q-daJ"/>
-                                                    <constraint firstAttribute="height" constant="62" id="Rxo-XH-h2G"/>
-                                                    <constraint firstAttribute="bottom" secondItem="JDi-Ic-ATc" secondAttribute="bottom" id="igk-3q-RBg"/>
-                                                    <constraint firstAttribute="trailing" secondItem="JDi-Ic-ATc" secondAttribute="trailing" id="jvZ-4Z-5m3"/>
+                                                    <constraint firstAttribute="trailing" secondItem="4Vl-ez-XS2" secondAttribute="trailing" id="G7Q-2d-MA1"/>
+                                                    <constraint firstAttribute="height" constant="200" id="Mkm-4T-oUL"/>
+                                                    <constraint firstItem="4Vl-ez-XS2" firstAttribute="top" secondItem="40T-IH-IXR" secondAttribute="top" id="QhP-VG-Cbf"/>
+                                                    <constraint firstItem="4Vl-ez-XS2" firstAttribute="leading" secondItem="40T-IH-IXR" secondAttribute="leading" id="gve-Bc-ke7"/>
+                                                    <constraint firstAttribute="bottom" secondItem="4Vl-ez-XS2" secondAttribute="bottom" id="yx9-yK-W4Q"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wfr-Od-Y16">
+                                                <rect key="frame" x="0.0" y="2735.6666666666665" width="393" height="62"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Family Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQc-8l-CJW">
+                                                        <rect key="frame" x="10" y="0.0" width="373" height="62"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="sQc-8l-CJW" firstAttribute="leading" secondItem="Wfr-Od-Y16" secondAttribute="leading" constant="10" id="8mA-l9-5Td"/>
+                                                    <constraint firstAttribute="trailing" secondItem="sQc-8l-CJW" secondAttribute="trailing" constant="10" id="aEl-O2-oF0"/>
+                                                    <constraint firstAttribute="height" constant="62" id="lco-K3-xzb"/>
+                                                    <constraint firstAttribute="bottom" secondItem="sQc-8l-CJW" secondAttribute="bottom" id="qKS-pn-h8K"/>
+                                                    <constraint firstItem="sQc-8l-CJW" firstAttribute="top" secondItem="Wfr-Od-Y16" secondAttribute="top" id="wKJ-tc-Ujj"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e7F-y8-dAh">
+                                                <rect key="frame" x="0.0" y="2797.6666666666665" width="393" height="151.33333333333348"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85T-8O-lbj">
+                                                        <rect key="frame" x="10" y="0.0" width="373" height="131.33333333333334"/>
+                                                        <string key="text">An App to help us with our family prayer. It engages the whole family in simple and effective prayer. helps in teaching the children , the right way to pray.</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="85T-8O-lbj" secondAttribute="trailing" constant="10" id="41K-Qh-fPT"/>
+                                                    <constraint firstItem="85T-8O-lbj" firstAttribute="leading" secondItem="e7F-y8-dAh" secondAttribute="leading" constant="10" id="A45-e6-k5F"/>
+                                                    <constraint firstAttribute="bottom" secondItem="85T-8O-lbj" secondAttribute="bottom" constant="20" id="K47-jX-Rb5"/>
+                                                    <constraint firstItem="85T-8O-lbj" firstAttribute="top" secondItem="e7F-y8-dAh" secondAttribute="top" id="hjk-9f-9Ai"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="wFo-AY-7Lp"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7na-nr-IGQ">
+                                                <rect key="frame" x="0.0" y="2949" width="393" height="62"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="62" id="D6z-b3-Bhn"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Evj-NU-zPt">
+                                                <rect key="frame" x="0.0" y="3011" width="393" height="200"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hr-appicon-img" translatesAutoresizingMaskIntoConstraints="NO" id="grZ-bS-q5G">
+                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="grZ-bS-q5G" secondAttribute="bottom" id="1Ui-nG-sO6"/>
+                                                    <constraint firstAttribute="height" constant="200" id="59X-mb-aqf"/>
+                                                    <constraint firstAttribute="trailing" secondItem="grZ-bS-q5G" secondAttribute="trailing" id="98R-sH-jVB"/>
+                                                    <constraint firstItem="grZ-bS-q5G" firstAttribute="leading" secondItem="Evj-NU-zPt" secondAttribute="leading" id="Opc-Cb-2ut"/>
+                                                    <constraint firstItem="grZ-bS-q5G" firstAttribute="top" secondItem="Evj-NU-zPt" secondAttribute="top" id="W2O-js-BWu"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v2l-Vg-wWB">
+                                                <rect key="frame" x="0.0" y="3211" width="393" height="62"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Healing Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IyA-12-SR0">
+                                                        <rect key="frame" x="10" y="0.0" width="373" height="62"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="IyA-12-SR0" secondAttribute="bottom" id="4oV-FP-HJn"/>
+                                                    <constraint firstItem="IyA-12-SR0" firstAttribute="top" secondItem="v2l-Vg-wWB" secondAttribute="top" id="AEP-5K-6sE"/>
+                                                    <constraint firstAttribute="trailing" secondItem="IyA-12-SR0" secondAttribute="trailing" constant="10" id="fu4-6x-ysZ"/>
+                                                    <constraint firstAttribute="height" constant="62" id="iHD-be-yhb"/>
+                                                    <constraint firstItem="IyA-12-SR0" firstAttribute="leading" secondItem="v2l-Vg-wWB" secondAttribute="leading" constant="10" id="mp4-CG-7x2"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XeJ-YN-4TQ">
+                                                <rect key="frame" x="0.0" y="3273" width="393" height="119.66666666666652"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A simple and effective way to seek God's healing. It includes  Bible verses to read and meditate" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hN9-dE-EMh">
+                                                        <rect key="frame" x="10" y="0.0" width="373" height="99.666666666666671"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="hN9-dE-EMh" firstAttribute="top" secondItem="XeJ-YN-4TQ" secondAttribute="top" id="IMt-ff-l2l"/>
+                                                    <constraint firstItem="hN9-dE-EMh" firstAttribute="leading" secondItem="XeJ-YN-4TQ" secondAttribute="leading" constant="10" id="hCO-zA-X3x"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="nEv-aj-3AP"/>
+                                                    <constraint firstAttribute="bottom" secondItem="hN9-dE-EMh" secondAttribute="bottom" constant="20" id="x77-Re-zHG"/>
+                                                    <constraint firstAttribute="trailing" secondItem="hN9-dE-EMh" secondAttribute="trailing" constant="10" id="y0r-aQ-fUW"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DDU-Tl-Yq6">
-                                                <rect key="frame" x="0.0" y="2783.6666666666665" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="3392.6666666666665" width="393" height="62"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="62" id="uUI-CC-eNq"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3dq-Wx-f7f">
+                                                <rect key="frame" x="0.0" y="3454.6666666666665" width="393" height="200"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pr-appicon-img" translatesAutoresizingMaskIntoConstraints="NO" id="Dba-jx-zeD">
+                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="Dba-jx-zeD" firstAttribute="top" secondItem="3dq-Wx-f7f" secondAttribute="top" id="1J1-lk-akp"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Dba-jx-zeD" secondAttribute="trailing" id="ONH-4J-1nu"/>
+                                                    <constraint firstItem="Dba-jx-zeD" firstAttribute="leading" secondItem="3dq-Wx-f7f" secondAttribute="leading" id="c7d-oX-KOD"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Dba-jx-zeD" secondAttribute="bottom" id="eQE-ns-YVz"/>
+                                                    <constraint firstAttribute="height" constant="200" id="gbA-FZ-ROv"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wlZ-mx-mCP">
+                                                <rect key="frame" x="0.0" y="3654.6666666666665" width="393" height="62"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Promise Rosary" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WWL-lV-F8t">
+                                                        <rect key="frame" x="10" y="0.0" width="373" height="62"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="WWL-lV-F8t" secondAttribute="bottom" id="DUM-N5-leN"/>
+                                                    <constraint firstItem="WWL-lV-F8t" firstAttribute="leading" secondItem="wlZ-mx-mCP" secondAttribute="leading" constant="10" id="ODK-fv-Pax"/>
+                                                    <constraint firstAttribute="trailing" secondItem="WWL-lV-F8t" secondAttribute="trailing" constant="10" id="fQG-lm-wMN"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="62" id="pNw-RG-uBs"/>
+                                                    <constraint firstItem="WWL-lV-F8t" firstAttribute="top" secondItem="wlZ-mx-mCP" secondAttribute="top" id="voA-ik-KnB"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OVr-ql-4Te">
+                                                <rect key="frame" x="0.0" y="3716.6666666666665" width="393" height="125.33333333333348"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9C-7B-KCH">
+                                                        <rect key="frame" x="10" y="0.0" width="373" height="105.33333333333333"/>
+                                                        <string key="text">Meditate on God's Promises from the Old and New Testament while praying the Rosary. Includes the four traditional mysteries with scriptures</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="k9C-7B-KCH" secondAttribute="bottom" constant="20" id="QKI-DG-hwT"/>
+                                                    <constraint firstAttribute="trailing" secondItem="k9C-7B-KCH" secondAttribute="trailing" constant="10" id="ffT-gT-cwo"/>
+                                                    <constraint firstItem="k9C-7B-KCH" firstAttribute="leading" secondItem="OVr-ql-4Te" secondAttribute="leading" constant="10" id="j1q-z1-iBa"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="kpz-lK-7Aa"/>
+                                                    <constraint firstItem="k9C-7B-KCH" firstAttribute="top" secondItem="OVr-ql-4Te" secondAttribute="top" id="ymo-v0-Dfg"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Bt-5L-ffh">
+                                                <rect key="frame" x="0.0" y="3842" width="393" height="62"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="62" id="xYI-Q5-dYh"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -4161,7 +4219,6 @@ Gifted Books and Media</string>
         <image name="CEOC Mock 30" width="600" height="900"/>
         <image name="Confession-ebook" width="600" height="600"/>
         <image name="EA Mock 30" width="600" height="900"/>
-        <image name="EA-iconimages" width="1024" height="1024"/>
         <image name="EOC Mock 30" width="600" height="900"/>
         <image name="EOC-ebooks -xcode" width="600" height="600"/>
         <image name="GC Mock 30" width="600" height="900"/>
@@ -4174,20 +4231,24 @@ Gifted Books and Media</string>
         <image name="TJWM Mock 30" width="600" height="900"/>
         <image name="YEOC Mock 30" width="600" height="900"/>
         <image name="bp" width="600" height="600"/>
+        <image name="ea-appicon-img" width="1024" height="1024"/>
         <image name="ea-ebooks-xcode" width="600" height="600"/>
         <image name="eoc-c" width="600" height="600"/>
         <image name="eoc-y" width="600" height="600"/>
+        <image name="fam_pra-appicon-img" width="1024" height="1024"/>
         <image name="folder.fill" catalog="system" width="128" height="96"/>
-        <image name="glory-be-1" width="278" height="278"/>
+        <image name="gb-appicon-img" width="278" height="278"/>
         <image name="godlychild" width="600" height="600"/>
-        <image name="jr-iconimages" width="400" height="400"/>
+        <image name="hr-appicon-img" width="341.33334350585938" height="341.33334350585938"/>
+        <image name="jr-appicon-img" width="1024" height="1024"/>
         <image name="menucard" catalog="system" width="108" height="128"/>
         <image name="ph" width="600" height="600"/>
         <image name="pr Mock 30" width="1800" height="2700"/>
+        <image name="pr-appicon-img" width="341.33334350585938" height="341.33334350585938"/>
         <image name="rtg-ebooks-xcode" width="600" height="600"/>
         <image name="sr" width="600" height="600"/>
-        <image name="sr-iconimages" width="400" height="400"/>
-        <image name="ssotc-iconimages" width="400" height="400"/>
+        <image name="sr-appicon-img" width="1024" height="1024"/>
+        <image name="ssotc_appicon-img" width="1024" height="1024"/>
         <image name="sstc-ebooks-xcode" width="600" height="600"/>
         <image name="tjwm-ebooks-xcode" width="600" height="600"/>
         <namedColor name="body_background">
