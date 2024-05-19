@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UvJ-x1-cLp">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_12" orientation="portrait" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
@@ -980,7 +980,6 @@
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ynF-2v-BLF">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="30"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="s4N-C0-OLq"/>
                                                 </constraints>
@@ -991,11 +990,10 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Visitation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GV3-ha-oLg">
                                                         <rect key="frame" x="8" y="0.0" width="377" height="30"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                                        <color key="textColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="6o7-3v-N2A"/>
                                                     <constraint firstItem="GV3-ha-oLg" firstAttribute="top" secondItem="KPG-P8-iTa" secondAttribute="top" id="Isl-aV-HL3"/>
@@ -1006,7 +1004,6 @@
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bK1-m4-U5z">
                                                 <rect key="frame" x="0.0" y="60" width="393" height="30"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="nc2-Yk-ChQ"/>
                                                 </constraints>
@@ -1051,11 +1048,10 @@ Hail Mary...
 Glory Be…
 </string>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
-                                                        <color key="textColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" id="0WB-VK-2hf"/>
                                                     <constraint firstAttribute="trailing" secondItem="aV0-rJ-2gS" secondAttribute="trailing" constant="8" id="6IB-cV-Zxz"/>
@@ -1086,7 +1082,6 @@ Glory Be…
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="Z2G-Zb-N7k" secondAttribute="bottom" id="2V4-5k-Lhf"/>
                                                     <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="Z2G-Zb-N7k" secondAttribute="trailing" constant="40" id="NQ6-rl-1sg"/>
@@ -1097,7 +1092,6 @@ Glory Be…
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4mc-vq-weQ">
                                                 <rect key="frame" x="0.0" y="1835.6666666666667" width="393" height="70"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="Hc0-YD-U0g"/>
                                                 </constraints>
@@ -1105,6 +1099,7 @@ Glory Be…
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <color key="backgroundColor" name="body_background"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="YOF-Jg-bxY" secondAttribute="trailing" id="3cq-bn-emc"/>
                                     <constraint firstItem="YOF-Jg-bxY" firstAttribute="width" secondItem="24e-fC-uXW" secondAttribute="width" id="92B-Gq-VSh"/>
@@ -1115,7 +1110,7 @@ Glory Be…
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vKe-rb-OGH"/>
-                        <color key="backgroundColor" red="0.43137254899999999" green="0.0039215686269999999" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="nav_background"/>
                         <constraints>
                             <constraint firstItem="24e-fC-uXW" firstAttribute="top" secondItem="vKe-rb-OGH" secondAttribute="top" id="HGm-eo-As9"/>
                             <constraint firstItem="24e-fC-uXW" firstAttribute="leading" secondItem="vKe-rb-OGH" secondAttribute="leading" id="M8H-yf-bBf"/>
@@ -1138,14 +1133,13 @@ Glory Be…
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zSQ-ac-nsJ">
-                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="666.00000000000045"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lhs-Iv-yIf">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="2185.6666666666665"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tKr-oK-Uq2">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="30"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="6sf-cg-Z2C"/>
                                                 </constraints>
@@ -1156,11 +1150,10 @@ Glory Be…
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Presentation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rlx-CB-xDZ">
                                                         <rect key="frame" x="8" y="0.0" width="377" height="30"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                                        <color key="textColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="Rlx-CB-xDZ" secondAttribute="bottom" id="3Ze-BO-su6"/>
                                                     <constraint firstAttribute="trailing" secondItem="Rlx-CB-xDZ" secondAttribute="trailing" constant="8" id="7r0-bN-bv4"/>
@@ -1171,7 +1164,6 @@ Glory Be…
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y2N-kU-eM4">
                                                 <rect key="frame" x="0.0" y="60" width="393" height="30"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="cEw-rc-N7G"/>
                                                 </constraints>
@@ -1216,11 +1208,10 @@ Hail Mary...
 Glory Be…
 </string>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
-                                                        <color key="textColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="VQI-qw-lfC" secondAttribute="trailing" constant="8" id="3Ro-GZ-U27"/>
                                                     <constraint firstAttribute="bottom" secondItem="VQI-qw-lfC" secondAttribute="bottom" id="7jx-WX-UPw"/>
@@ -1251,7 +1242,6 @@ Glory Be…
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstItem="Qfm-ZO-Xe1" firstAttribute="top" secondItem="yTP-Uq-gug" secondAttribute="top" id="7MH-bH-w1N"/>
                                                     <constraint firstItem="Qfm-ZO-Xe1" firstAttribute="leading" secondItem="yTP-Uq-gug" secondAttribute="leading" constant="40" id="8KB-at-AR9"/>
@@ -1262,7 +1252,6 @@ Glory Be…
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="duG-dt-c4I">
                                                 <rect key="frame" x="0.0" y="2115.6666666666665" width="393" height="70"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="zyP-lM-AjX"/>
                                                 </constraints>
@@ -1270,6 +1259,7 @@ Glory Be…
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <color key="backgroundColor" name="body_background"/>
                                 <constraints>
                                     <constraint firstItem="lhs-Iv-yIf" firstAttribute="top" secondItem="zSQ-ac-nsJ" secondAttribute="top" id="AZq-Pg-u8a"/>
                                     <constraint firstAttribute="bottom" secondItem="lhs-Iv-yIf" secondAttribute="bottom" id="BK5-pO-ZGJ"/>
@@ -1280,7 +1270,7 @@ Glory Be…
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9Qo-72-DCs"/>
-                        <color key="backgroundColor" red="0.43137254899999999" green="0.0039215686269999999" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="nav_background"/>
                         <constraints>
                             <constraint firstItem="zSQ-ac-nsJ" firstAttribute="leading" secondItem="9Qo-72-DCs" secondAttribute="leading" id="CRq-vi-TQq"/>
                             <constraint firstItem="zSQ-ac-nsJ" firstAttribute="top" secondItem="9Qo-72-DCs" secondAttribute="top" id="ftV-cM-zrN"/>
@@ -1310,7 +1300,6 @@ Glory Be…
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VJL-r0-jLB">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="30"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="9cI-Jb-o30"/>
                                                 </constraints>
@@ -1321,11 +1310,10 @@ Glory Be…
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Nativity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Meq-20-j7D">
                                                         <rect key="frame" x="8" y="0.0" width="377" height="30"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                                        <color key="textColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstItem="Meq-20-j7D" firstAttribute="top" secondItem="u6f-vT-Yjp" secondAttribute="top" id="5eO-gP-tWG"/>
                                                     <constraint firstAttribute="trailing" secondItem="Meq-20-j7D" secondAttribute="trailing" constant="8" id="7o1-hp-AYz"/>
@@ -1336,7 +1324,6 @@ Glory Be…
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qWa-cf-iZO">
                                                 <rect key="frame" x="0.0" y="60" width="393" height="30"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="Xta-56-4VJ"/>
                                                 </constraints>
@@ -1380,11 +1367,10 @@ Hail Mary...
 
 Glory Be…</string>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
-                                                        <color key="textColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="CLF-QA-Pn1" secondAttribute="trailing" constant="8" id="BEh-10-NMi"/>
                                                     <constraint firstItem="CLF-QA-Pn1" firstAttribute="leading" secondItem="3i4-u0-mCM" secondAttribute="leading" constant="8" id="Cru-IA-OND"/>
@@ -1415,7 +1401,6 @@ Glory Be…</string>
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstItem="OcC-Sb-ExO" firstAttribute="top" secondItem="AEK-3O-C5V" secondAttribute="top" id="TbW-We-o11"/>
                                                     <constraint firstAttribute="height" constant="40" id="g8K-eo-A0h"/>
@@ -1426,7 +1411,6 @@ Glory Be…</string>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dso-ZA-j6q">
                                                 <rect key="frame" x="0.0" y="2059.3333333333335" width="393" height="70"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="0lL-l9-HaG"/>
                                                 </constraints>
@@ -1434,6 +1418,7 @@ Glory Be…</string>
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <color key="backgroundColor" name="body_background"/>
                                 <constraints>
                                     <constraint firstItem="yZS-VI-e5m" firstAttribute="top" secondItem="7ej-Hj-FGU" secondAttribute="top" id="01f-VZ-bpc"/>
                                     <constraint firstAttribute="trailing" secondItem="yZS-VI-e5m" secondAttribute="trailing" id="XNL-4m-4C1"/>
@@ -1444,7 +1429,7 @@ Glory Be…</string>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="y6S-Mh-nID"/>
-                        <color key="backgroundColor" red="0.43137254899999999" green="0.0039215686269999999" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="nav_background"/>
                         <constraints>
                             <constraint firstItem="y6S-Mh-nID" firstAttribute="trailing" secondItem="7ej-Hj-FGU" secondAttribute="trailing" id="8tG-fE-BcT"/>
                             <constraint firstItem="7ej-Hj-FGU" firstAttribute="top" secondItem="y6S-Mh-nID" secondAttribute="top" id="91D-KZ-NbD"/>
@@ -1474,7 +1459,6 @@ Glory Be…</string>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="weV-Ij-qWw">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="30"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="v7p-h7-amU"/>
                                                 </constraints>
@@ -1485,11 +1469,10 @@ Glory Be…</string>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The finding of the Child Jesus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Q8-Sp-Qxk">
                                                         <rect key="frame" x="8" y="0.0" width="377" height="30"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
-                                                        <color key="textColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="1Q8-Sp-Qxk" secondAttribute="trailing" constant="8" id="6OF-Il-tQh"/>
                                                     <constraint firstAttribute="bottom" secondItem="1Q8-Sp-Qxk" secondAttribute="bottom" id="BYU-It-DaP"/>
@@ -1500,7 +1483,6 @@ Glory Be…</string>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aNO-Rz-viR">
                                                 <rect key="frame" x="0.0" y="60" width="393" height="30"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="34c-KY-KZ0"/>
                                                 </constraints>
@@ -1545,11 +1527,10 @@ Hail Mary...
 Glory Be…
 </string>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
-                                                        <color key="textColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstItem="Ow7-Tj-LrH" firstAttribute="top" secondItem="T0X-Mq-rHd" secondAttribute="top" id="4xp-0y-4x6"/>
                                                     <constraint firstItem="Ow7-Tj-LrH" firstAttribute="leading" secondItem="T0X-Mq-rHd" secondAttribute="leading" constant="8" id="Lbm-oC-K1B"/>
@@ -1578,7 +1559,6 @@ Glory Be…
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstItem="RbS-x9-0Ge" firstAttribute="top" secondItem="RZt-Mt-Xnv" secondAttribute="top" id="gmQ-IW-qBE"/>
                                                     <constraint firstAttribute="bottom" secondItem="RbS-x9-0Ge" secondAttribute="bottom" id="sFv-zQ-4f7"/>
@@ -1589,7 +1569,6 @@ Glory Be…
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PKT-Ve-zQe">
                                                 <rect key="frame" x="0.0" y="2087.6666666666665" width="393" height="70"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="FVN-K8-7R3"/>
                                                 </constraints>
@@ -1597,6 +1576,7 @@ Glory Be…
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <color key="backgroundColor" name="body_background"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="g40-YJ-c4H" secondAttribute="bottom" id="3gq-Dl-Ypd"/>
                                     <constraint firstAttribute="trailing" secondItem="g40-YJ-c4H" secondAttribute="trailing" id="6gp-JQ-Qcq"/>
@@ -1607,7 +1587,7 @@ Glory Be…
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="x9D-kG-oDL"/>
-                        <color key="backgroundColor" red="0.43137254899999999" green="0.0039215686269999999" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="nav_background"/>
                         <constraints>
                             <constraint firstItem="Cli-bS-TG5" firstAttribute="top" secondItem="x9D-kG-oDL" secondAttribute="top" id="18G-Wy-iRi"/>
                             <constraint firstItem="Cli-bS-TG5" firstAttribute="leading" secondItem="x9D-kG-oDL" secondAttribute="leading" id="RZt-9b-Grm"/>
@@ -1647,7 +1627,6 @@ Glory Be…
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9m5-DU-lNR">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="30"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="iTc-bl-NK0"/>
                                                 </constraints>
@@ -1658,11 +1637,10 @@ Glory Be…
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Annunciation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yMW-8Z-VjH">
                                                         <rect key="frame" x="8" y="0.0" width="377" height="30"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                                        <color key="textColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="yMW-8Z-VjH" secondAttribute="bottom" id="Faz-kr-3PB"/>
                                                     <constraint firstAttribute="height" constant="30" id="OjU-iq-bZp"/>
@@ -1673,7 +1651,6 @@ Glory Be…
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Hv-nM-IKo">
                                                 <rect key="frame" x="0.0" y="60" width="393" height="30"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="imn-6V-ceM"/>
                                                 </constraints>
@@ -1684,11 +1661,10 @@ Glory Be…
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Decade 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKT-58-qaJ">
                                                         <rect key="frame" x="8" y="0.0" width="377" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="nKT-58-qaJ" secondAttribute="trailing" constant="8" id="ARB-UO-iU2"/>
                                                     <constraint firstItem="nKT-58-qaJ" firstAttribute="leading" secondItem="YZ4-rg-CyN" secondAttribute="leading" constant="8" id="Ede-6S-VEl"/>
@@ -1699,7 +1675,6 @@ Glory Be…
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1pG-Yb-X7b">
                                                 <rect key="frame" x="0.0" y="120" width="393" height="30"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="NyA-Lo-yZj"/>
                                                 </constraints>
@@ -1744,11 +1719,10 @@ Hail Mary...
 Glory Be…
 </string>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
-                                                        <color key="textColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstItem="2Ud-G8-fnT" firstAttribute="leading" secondItem="f6Y-ry-oaL" secondAttribute="leading" constant="8" id="CFB-rm-Gt4"/>
                                                     <constraint firstItem="2Ud-G8-fnT" firstAttribute="top" secondItem="f6Y-ry-oaL" secondAttribute="top" id="LEm-BB-wQX"/>
@@ -1779,7 +1753,6 @@ Glory Be…
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="6TX-mB-bZQ"/>
                                                     <constraint firstAttribute="bottom" secondItem="uRx-F2-IdO" secondAttribute="bottom" id="EDv-yI-dB3"/>
@@ -1790,7 +1763,6 @@ Glory Be…
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ys9-mh-8jn">
                                                 <rect key="frame" x="0.0" y="2119.3333333333335" width="393" height="70"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="IO0-VV-rWa"/>
                                                 </constraints>
@@ -1798,6 +1770,7 @@ Glory Be…
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <color key="backgroundColor" name="body_background"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="HPt-hK-64o" secondAttribute="bottom" id="8jw-Sl-KyH"/>
                                     <constraint firstAttribute="trailing" secondItem="HPt-hK-64o" secondAttribute="trailing" id="BSE-Ec-95P"/>
@@ -1808,7 +1781,7 @@ Glory Be…
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Dtl-D5-SqF"/>
-                        <color key="backgroundColor" red="0.43137254899999999" green="0.0039215686269999999" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="nav_background"/>
                         <constraints>
                             <constraint firstItem="Dtl-D5-SqF" firstAttribute="trailing" secondItem="NhF-wE-XvU" secondAttribute="trailing" id="2LQ-Fq-jOz"/>
                             <constraint firstItem="Dtl-D5-SqF" firstAttribute="bottom" secondItem="NhF-wE-XvU" secondAttribute="bottom" id="2Rp-n8-AKN"/>
@@ -2857,7 +2830,7 @@ Glory Be…
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zmR-mo-PwG"/>
-                        <color key="backgroundColor" red="0.43137254899999999" green="0.0039215686269999999" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="nav_background"/>
                         <constraints>
                             <constraint firstItem="zmR-mo-PwG" firstAttribute="trailing" secondItem="gSj-sh-xHJ" secondAttribute="trailing" id="5aa-dd-hzi"/>
                             <constraint firstItem="gSj-sh-xHJ" firstAttribute="leading" secondItem="zmR-mo-PwG" secondAttribute="leading" id="HeJ-KN-a82"/>
@@ -3029,7 +3002,7 @@ Glory Be…
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="W7h-Dj-e6H"/>
-                        <color key="backgroundColor" red="0.43137254899999999" green="0.0039215686269999999" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="nav_background"/>
                         <constraints>
                             <constraint firstItem="wLF-ky-Fow" firstAttribute="top" secondItem="W7h-Dj-e6H" secondAttribute="top" id="4Y4-iN-CT1"/>
                             <constraint firstItem="W7h-Dj-e6H" firstAttribute="bottom" secondItem="wLF-ky-Fow" secondAttribute="bottom" id="70A-0H-5Hi"/>
@@ -3373,7 +3346,7 @@ Glory Be…
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Mqp-tf-gaY"/>
-                        <color key="backgroundColor" red="0.43137254899999999" green="0.0039215686269999999" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="nav_background"/>
                         <constraints>
                             <constraint firstItem="5Bz-qR-W3i" firstAttribute="top" secondItem="Mqp-tf-gaY" secondAttribute="top" id="J9u-rd-h1B"/>
                             <constraint firstItem="5Bz-qR-W3i" firstAttribute="leading" secondItem="Mqp-tf-gaY" secondAttribute="leading" id="QJ0-zp-qPR"/>
@@ -3545,7 +3518,7 @@ Glory Be…
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="v5G-3L-pSL"/>
-                        <color key="backgroundColor" red="0.43137254899999999" green="0.0039215686269999999" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="nav_background"/>
                         <constraints>
                             <constraint firstItem="v5G-3L-pSL" firstAttribute="bottom" secondItem="iAh-zQ-2cE" secondAttribute="bottom" id="8Cj-jh-wc1"/>
                             <constraint firstItem="iAh-zQ-2cE" firstAttribute="top" secondItem="v5G-3L-pSL" secondAttribute="top" id="BYP-5d-TdS"/>
@@ -3733,7 +3706,7 @@ Glory Be…</string>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="npd-5t-eP3"/>
-                        <color key="backgroundColor" red="0.43137254899999999" green="0.0039215686269999999" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="nav_background"/>
                         <constraints>
                             <constraint firstItem="npd-5t-eP3" firstAttribute="bottom" secondItem="LcG-RB-mSb" secondAttribute="bottom" id="OCe-b3-qhS"/>
                             <constraint firstItem="LcG-RB-mSb" firstAttribute="top" secondItem="npd-5t-eP3" secondAttribute="top" id="TYz-Re-Sgt"/>
@@ -3906,7 +3879,7 @@ Glory Be…
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YWI-IH-Xqx"/>
-                        <color key="backgroundColor" red="0.43137254899999999" green="0.0039215686269999999" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="nav_background"/>
                         <constraints>
                             <constraint firstItem="YWI-IH-Xqx" firstAttribute="trailing" secondItem="yxs-If-1or" secondAttribute="trailing" id="If0-2t-vHj"/>
                             <constraint firstItem="YWI-IH-Xqx" firstAttribute="bottom" secondItem="yxs-If-1or" secondAttribute="bottom" id="crW-Ju-6FZ"/>
@@ -4077,7 +4050,7 @@ Glory Be…</string>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bZb-dI-UjU"/>
-                        <color key="backgroundColor" red="0.43137254899999999" green="0.0039215686269999999" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="nav_background"/>
                         <constraints>
                             <constraint firstItem="nDb-46-FOS" firstAttribute="leading" secondItem="bZb-dI-UjU" secondAttribute="leading" id="9tu-7E-VDS"/>
                             <constraint firstItem="bZb-dI-UjU" firstAttribute="bottom" secondItem="nDb-46-FOS" secondAttribute="bottom" id="Dve-GU-SRv"/>
@@ -4250,7 +4223,7 @@ Glory Be…
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dvQ-lE-7v8"/>
-                        <color key="backgroundColor" red="0.43137254899999999" green="0.0039215686269999999" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="nav_background"/>
                         <constraints>
                             <constraint firstItem="JUJ-iW-3LY" firstAttribute="leading" secondItem="dvQ-lE-7v8" secondAttribute="leading" id="2HE-Bl-kU3"/>
                             <constraint firstItem="dvQ-lE-7v8" firstAttribute="trailing" secondItem="JUJ-iW-3LY" secondAttribute="trailing" id="FxW-iI-YPl"/>
@@ -4421,7 +4394,7 @@ Glory Be…</string>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jWT-i8-P1n"/>
-                        <color key="backgroundColor" red="0.43137254899999999" green="0.0039215686269999999" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="nav_background"/>
                         <constraints>
                             <constraint firstItem="JJy-Mw-Xoe" firstAttribute="top" secondItem="jWT-i8-P1n" secondAttribute="top" id="3ZO-el-THs"/>
                             <constraint firstItem="jWT-i8-P1n" firstAttribute="trailing" secondItem="JJy-Mw-Xoe" secondAttribute="trailing" id="JyU-O6-GNa"/>
