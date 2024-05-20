@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		340E215C29FEC0DB005BC4DB /* topics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340E215A29FEC0DB005BC4DB /* topics.storyboard */; };
 		3468DF052BBDEFA100698AD0 /* apps_click.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3468DF042BBDEFA100698AD0 /* apps_click.swift */; };
+		346F7E392BFBD29400B58FE7 /* luminous.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346F7E372BFBD29400B58FE7 /* luminous.storyboard */; };
+		346F7E3C2BFBD3DB00B58FE7 /* glorious.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346F7E3A2BFBD3DB00B58FE7 /* glorious.storyboard */; };
+		346F7E3F2BFBD53700B58FE7 /* sorrowful.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346F7E3D2BFBD53700B58FE7 /* sorrowful.storyboard */; };
+		346F7E422BFBD66500B58FE7 /* joyful.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346F7E402BFBD66500B58FE7 /* joyful.storyboard */; };
 		34BA89B329F8382000CBB414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA89B229F8382000CBB414 /* AppDelegate.swift */; };
 		34BA89B529F8382000CBB414 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA89B429F8382000CBB414 /* SceneDelegate.swift */; };
 		34BA89B729F8382000CBB414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA89B629F8382000CBB414 /* ViewController.swift */; };
@@ -40,6 +44,10 @@
 /* Begin PBXFileReference section */
 		340E215B29FEC0DB005BC4DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "promise-rosary/Base.lproj/topics.storyboard"; sourceTree = "<group>"; };
 		3468DF042BBDEFA100698AD0 /* apps_click.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apps_click.swift; sourceTree = "<group>"; };
+		346F7E382BFBD29400B58FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "promise-rosary/Base.lproj/luminous.storyboard"; sourceTree = "<group>"; };
+		346F7E3B2BFBD3DB00B58FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "promise-rosary/Base.lproj/glorious.storyboard"; sourceTree = "<group>"; };
+		346F7E3E2BFBD53700B58FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "promise-rosary/Base.lproj/sorrowful.storyboard"; sourceTree = "<group>"; };
+		346F7E412BFBD66500B58FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "promise-rosary/Base.lproj/joyful.storyboard"; sourceTree = "<group>"; };
 		34BA89AF29F8382000CBB414 /* promise-rosary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "promise-rosary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BA89B229F8382000CBB414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34BA89B429F8382000CBB414 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +91,10 @@
 		34BA89A629F8382000CBB414 = {
 			isa = PBXGroup;
 			children = (
+				346F7E402BFBD66500B58FE7 /* joyful.storyboard */,
+				346F7E3D2BFBD53700B58FE7 /* sorrowful.storyboard */,
+				346F7E3A2BFBD3DB00B58FE7 /* glorious.storyboard */,
+				346F7E372BFBD29400B58FE7 /* luminous.storyboard */,
 				340E215A29FEC0DB005BC4DB /* topics.storyboard */,
 				34BA89B129F8382000CBB414 /* promise-rosary */,
 				34BA89C829F8382100CBB414 /* promise-rosaryTests */,
@@ -237,8 +249,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				346F7E3F2BFBD53700B58FE7 /* sorrowful.storyboard in Resources */,
+				346F7E422BFBD66500B58FE7 /* joyful.storyboard in Resources */,
 				34BA89BF29F8382100CBB414 /* LaunchScreen.storyboard in Resources */,
 				34BA89BC29F8382100CBB414 /* Assets.xcassets in Resources */,
+				346F7E3C2BFBD3DB00B58FE7 /* glorious.storyboard in Resources */,
+				346F7E392BFBD29400B58FE7 /* luminous.storyboard in Resources */,
 				340E215C29FEC0DB005BC4DB /* topics.storyboard in Resources */,
 				34BA89BA29F8382000CBB414 /* Main.storyboard in Resources */,
 			);
@@ -311,6 +327,38 @@
 				340E215B29FEC0DB005BC4DB /* Base */,
 			);
 			name = topics.storyboard;
+			sourceTree = "<group>";
+		};
+		346F7E372BFBD29400B58FE7 /* luminous.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				346F7E382BFBD29400B58FE7 /* Base */,
+			);
+			name = luminous.storyboard;
+			sourceTree = "<group>";
+		};
+		346F7E3A2BFBD3DB00B58FE7 /* glorious.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				346F7E3B2BFBD3DB00B58FE7 /* Base */,
+			);
+			name = glorious.storyboard;
+			sourceTree = "<group>";
+		};
+		346F7E3D2BFBD53700B58FE7 /* sorrowful.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				346F7E3E2BFBD53700B58FE7 /* Base */,
+			);
+			name = sorrowful.storyboard;
+			sourceTree = "<group>";
+		};
+		346F7E402BFBD66500B58FE7 /* joyful.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				346F7E412BFBD66500B58FE7 /* Base */,
+			);
+			name = joyful.storyboard;
 			sourceTree = "<group>";
 		};
 		34BA89B829F8382000CBB414 /* Main.storyboard */ = {
