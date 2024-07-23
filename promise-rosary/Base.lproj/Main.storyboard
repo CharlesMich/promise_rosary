@@ -23,19 +23,41 @@
                         <color key="selectedImageTintColor" name="stack_background"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Gsc-MM-JVA" kind="relationship" relationship="viewControllers" id="nfB-a1-16b"/>
                         <segue destination="Hpc-4P-heR" kind="relationship" relationship="viewControllers" id="3Rf-x7-mcE"/>
+                        <segue destination="Gsc-MM-JVA" kind="relationship" relationship="viewControllers" id="G8J-Q7-Aob"/>
+                        <segue destination="PWd-K6-31Q" kind="relationship" relationship="viewControllers" id="6wu-rx-38v"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pgb-Tg-NJP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-876" y="-415"/>
         </scene>
+        <!--Notes-->
+        <scene sceneID="uGX-Rf-r3V">
+            <objects>
+                <navigationController id="PWd-K6-31Q" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Notes" image="pencil.circle.fill" catalog="system" id="PX1-iU-igf"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ctf-JS-GkE">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="5e8-zH-eAe" kind="relationship" relationship="rootViewController" id="aDY-mb-duB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LCM-IQ-nQt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-175" y="-415"/>
+        </scene>
         <!--Main Menu-->
         <scene sceneID="1J5-33-Uhq">
             <objects>
                 <navigationController id="Hpc-4P-heR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Main Menu" image="folder.fill" catalog="system" selectedImage="menucard" id="Ko2-qx-vRP">
+                    <tabBarItem key="tabBarItem" title="Main Menu" image="folder.fill" catalog="system" selectedImage="folder.fill" id="Ko2-qx-vRP">
                         <color key="badgeColor" systemColor="labelColor"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nQN-q5-6TA">
@@ -52,7 +74,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NQr-oX-yOh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2280" y="148"/>
+            <point key="canvasLocation" x="-1563" y="-423"/>
         </scene>
         <!--Main Menu-->
         <scene sceneID="cEK-sg-lCV">
@@ -66,122 +88,19 @@
                                 <rect key="frame" x="0.0" y="103" width="393" height="749"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="MQV-TM-sXx">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="881"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="629"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="587-cc-ZGa">
-                                                <rect key="frame" x="0.0" y="0.0" width="393" height="62"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCa-Cl-X0r">
-                                                        <rect key="frame" x="10" y="10" width="373" height="52"/>
-                                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="How to pray the Rosary">
-                                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
-                                                            <color key="baseForegroundColor" name="title_text"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <segue destination="w78-gL-6zN" kind="show" id="ZHz-OW-36D"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                                <color key="backgroundColor" name="body_background"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="qCa-Cl-X0r" secondAttribute="bottom" id="O0r-gZ-uWP"/>
-                                                    <constraint firstItem="qCa-Cl-X0r" firstAttribute="leading" secondItem="587-cc-ZGa" secondAttribute="leading" constant="10" id="bh2-8b-K2h"/>
-                                                    <constraint firstAttribute="trailing" secondItem="qCa-Cl-X0r" secondAttribute="trailing" constant="10" id="evK-2d-aef"/>
-                                                    <constraint firstItem="qCa-Cl-X0r" firstAttribute="top" secondItem="587-cc-ZGa" secondAttribute="top" constant="10" id="iD3-lm-PJd"/>
-                                                    <constraint firstAttribute="height" constant="62" id="v6p-Ac-1mW"/>
-                                                </constraints>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BGd-I8-FAs">
-                                                <rect key="frame" x="0.0" y="63" width="393" height="62"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPB-mt-RYb">
-                                                        <rect key="frame" x="10" y="10" width="373" height="52"/>
-                                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Why do we pray the Rosary">
-                                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
-                                                            <color key="baseForegroundColor" name="title_text"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <segue destination="1oz-Nk-Ptc" kind="show" id="B3p-aC-emR"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                                <color key="backgroundColor" name="body_background"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="62" id="3pE-Xp-rs2"/>
-                                                    <constraint firstItem="fPB-mt-RYb" firstAttribute="leading" secondItem="BGd-I8-FAs" secondAttribute="leading" constant="10" id="FVT-NF-9Ea"/>
-                                                    <constraint firstAttribute="trailing" secondItem="fPB-mt-RYb" secondAttribute="trailing" constant="10" id="bgO-8N-VtS"/>
-                                                    <constraint firstAttribute="bottom" secondItem="fPB-mt-RYb" secondAttribute="bottom" id="gIh-Tj-wFF"/>
-                                                    <constraint firstItem="fPB-mt-RYb" firstAttribute="top" secondItem="BGd-I8-FAs" secondAttribute="top" constant="10" id="pwp-uj-qqN"/>
-                                                </constraints>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C1q-5I-KUO">
-                                                <rect key="frame" x="0.0" y="126" width="393" height="62"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7U-9h-0g4">
-                                                        <rect key="frame" x="10" y="10" width="373" height="52"/>
-                                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Why do we read the Bible">
-                                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
-                                                            <color key="baseForegroundColor" name="title_text"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <segue destination="6NS-ME-qjY" kind="show" id="laK-Kv-8ow"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                                <color key="backgroundColor" name="body_background"/>
-                                                <constraints>
-                                                    <constraint firstItem="h7U-9h-0g4" firstAttribute="leading" secondItem="C1q-5I-KUO" secondAttribute="leading" constant="10" id="7ZO-Cv-waP"/>
-                                                    <constraint firstAttribute="trailing" secondItem="h7U-9h-0g4" secondAttribute="trailing" constant="10" id="ApB-aF-Tre"/>
-                                                    <constraint firstItem="h7U-9h-0g4" firstAttribute="top" secondItem="C1q-5I-KUO" secondAttribute="top" constant="10" id="LAk-12-Y0f"/>
-                                                    <constraint firstAttribute="bottom" secondItem="h7U-9h-0g4" secondAttribute="bottom" id="VB7-it-erC"/>
-                                                    <constraint firstAttribute="height" constant="62" id="dyg-wW-sXp"/>
-                                                </constraints>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0HZ-7M-EW3">
-                                                <rect key="frame" x="0.0" y="189" width="393" height="62"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esh-yh-7eu">
-                                                        <rect key="frame" x="10" y="10" width="373" height="52"/>
-                                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Prayers in the Rosary">
-                                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
-                                                            <color key="baseForegroundColor" name="title_text"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <segue destination="7XP-sh-uP4" kind="show" id="mEd-df-uz3"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                                <color key="backgroundColor" name="body_background"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="trailing" secondItem="esh-yh-7eu" secondAttribute="trailing" constant="10" id="CCC-LM-srx"/>
-                                                    <constraint firstAttribute="height" constant="62" id="CUv-JR-yKs"/>
-                                                    <constraint firstItem="esh-yh-7eu" firstAttribute="leading" secondItem="0HZ-7M-EW3" secondAttribute="leading" constant="10" id="J7l-JJ-Vcs"/>
-                                                    <constraint firstItem="esh-yh-7eu" firstAttribute="top" secondItem="0HZ-7M-EW3" secondAttribute="top" constant="10" id="mA3-sw-fxm"/>
-                                                    <constraint firstAttribute="bottom" secondItem="esh-yh-7eu" secondAttribute="bottom" id="oSn-yJ-frf"/>
-                                                </constraints>
-                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mex-z2-HMU">
-                                                <rect key="frame" x="0.0" y="252" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="62"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVE-NR-4gr">
                                                         <rect key="frame" x="10" y="10" width="373" height="52"/>
                                                         <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Closing Prayers">
+                                                        <buttonConfiguration key="configuration" style="plain" title="Topics">
                                                             <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
                                                             <color key="baseForegroundColor" name="title_text"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <segue destination="W3h-sz-Zle" kind="show" id="94W-6R-0g1"/>
-                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" name="body_background"/>
@@ -194,19 +113,16 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rCJ-wn-2Lo">
-                                                <rect key="frame" x="0.0" y="315" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="63" width="393" height="62"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbF-bK-Mly">
                                                         <rect key="frame" x="10" y="10" width="373" height="52"/>
                                                         <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Litany of the Blessed Virgin Mary">
+                                                        <buttonConfiguration key="configuration" style="plain" title="Notes">
                                                             <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
                                                             <color key="baseForegroundColor" name="title_text"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <segue destination="oB0-Tp-Llz" kind="show" id="tqa-7k-2Hn"/>
-                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" name="body_background"/>
@@ -219,7 +135,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lPO-oa-zYl">
-                                                <rect key="frame" x="0.0" y="378" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="126" width="393" height="62"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vp7-ZT-HVw">
                                                         <rect key="frame" x="10" y="10" width="373" height="52"/>
@@ -244,7 +160,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S0e-Hq-u01">
-                                                <rect key="frame" x="0.0" y="441" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="189" width="393" height="62"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QH9-NF-i7F">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="62"/>
@@ -269,7 +185,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oNm-EU-J2K">
-                                                <rect key="frame" x="0.0" y="504" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="252" width="393" height="62"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TeB-VX-dEL">
                                                         <rect key="frame" x="10" y="10" width="373" height="42"/>
@@ -294,7 +210,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bli-T1-nTB">
-                                                <rect key="frame" x="0.0" y="567" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="315" width="393" height="62"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SDd-Oi-8F3">
                                                         <rect key="frame" x="10" y="10" width="373" height="42"/>
@@ -319,7 +235,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kxD-y0-75G">
-                                                <rect key="frame" x="0.0" y="630" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="378" width="393" height="62"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lsb-7r-69M">
                                                         <rect key="frame" x="10" y="10" width="373" height="42"/>
@@ -344,7 +260,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vyr-5t-TkC">
-                                                <rect key="frame" x="0.0" y="693" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="441" width="393" height="62"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9o-E0-NNK">
                                                         <rect key="frame" x="10" y="10" width="373" height="42"/>
@@ -369,7 +285,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gtl-zv-GMB">
-                                                <rect key="frame" x="0.0" y="756" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="504" width="393" height="62"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJW-Wf-wQB">
                                                         <rect key="frame" x="10" y="10" width="373" height="42"/>
@@ -394,7 +310,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hqp-2U-tfW">
-                                                <rect key="frame" x="0.0" y="819" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="567" width="393" height="62"/>
                                                 <color key="backgroundColor" name="body_background"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="62" id="ZA9-j4-95i"/>
@@ -681,7 +597,7 @@ Immaculate Heart of Mary, pray for us.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bst-lJ-zm7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2996" y="1512"/>
+            <point key="canvasLocation" x="1050" y="468"/>
         </scene>
         <!--1234-->
         <scene sceneID="4TR-LA-uxJ">
@@ -691,7 +607,7 @@ Immaculate Heart of Mary, pray for us.</string>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="db9-em-Ttr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2376" y="1701"/>
+            <point key="canvasLocation" x="1694" y="1078"/>
         </scene>
         <!--How to Pray the Rosary-->
         <scene sceneID="yML-kY-5OG">
@@ -788,7 +704,7 @@ Make the “Sign of the Cross”</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ijr-8U-r6Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3731" y="837"/>
+            <point key="canvasLocation" x="1764" y="-285"/>
         </scene>
         <!--Why do we Pray the Rosary-->
         <scene sceneID="CZL-WC-Pbf">
@@ -974,7 +890,7 @@ Make the “Sign of the Cross”</string>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dOg-uD-XDp">
                                                 <rect key="frame" x="0.0" y="767.33333333333337" width="393" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="backgroundColor" name="body_background"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="Er2-rL-d1D"/>
                                                 </constraints>
@@ -1005,7 +921,7 @@ Make the “Sign of the Cross”</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VSR-g7-UPI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4488" y="837"/>
+            <point key="canvasLocation" x="2431" y="-285"/>
         </scene>
         <!--Why do we Read the Bible-->
         <scene sceneID="JGD-df-tbU">
@@ -1521,7 +1437,7 @@ I discovered your words and I consumed them. And your word became to me as the g
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8z8-Tv-8ak" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3755" y="1512"/>
+            <point key="canvasLocation" x="2463" y="404"/>
         </scene>
         <!--Prayers in the Rosary-->
         <scene sceneID="HlA-r0-uHy">
@@ -1824,7 +1740,7 @@ Amen.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E1Y-ac-ZQ5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4489" y="1512"/>
+            <point key="canvasLocation" x="1706" y="468"/>
         </scene>
         <!--Litany of BVM-->
         <scene sceneID="AWb-ag-6wD">
@@ -2042,7 +1958,7 @@ Grant, we beseech Thee, O Lord God, that we Thy Servants may enjoy perpetual hea
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hBF-je-BBw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5309" y="1512"/>
+            <point key="canvasLocation" x="356" y="468"/>
         </scene>
         <!--Apps-->
         <scene sceneID="Sda-wA-jkm">
@@ -4675,6 +4591,208 @@ Gifted Books and Media</string>
             </objects>
             <point key="canvasLocation" x="-5015" y="-666"/>
         </scene>
+        <!--Main Menu-->
+        <scene sceneID="n1I-Op-n4v">
+            <objects>
+                <viewController id="5e8-zH-eAe" customClass="ViewController" customModule="promise_rosary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Abj-8B-PqK">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DmT-fw-0ZB">
+                                <rect key="frame" x="0.0" y="103" width="393" height="749"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="4oz-Cr-LXf">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="440"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1vX-Y0-6hb">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="62"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wt3-WX-DRI">
+                                                        <rect key="frame" x="10" y="10" width="373" height="52"/>
+                                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="How to pray the Rosary">
+                                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                                            <color key="baseForegroundColor" name="title_text"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <segue destination="w78-gL-6zN" kind="show" id="brG-Ga-IXm"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" name="body_background"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="62" id="7l0-hG-Z1W"/>
+                                                    <constraint firstAttribute="bottom" secondItem="wt3-WX-DRI" secondAttribute="bottom" id="8LE-0W-CXj"/>
+                                                    <constraint firstAttribute="trailing" secondItem="wt3-WX-DRI" secondAttribute="trailing" constant="10" id="e2I-Be-WkG"/>
+                                                    <constraint firstItem="wt3-WX-DRI" firstAttribute="top" secondItem="1vX-Y0-6hb" secondAttribute="top" constant="10" id="eKn-uB-gDP"/>
+                                                    <constraint firstItem="wt3-WX-DRI" firstAttribute="leading" secondItem="1vX-Y0-6hb" secondAttribute="leading" constant="10" id="tJz-eT-BSB"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t5D-v9-mgl">
+                                                <rect key="frame" x="0.0" y="63" width="393" height="62"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICf-rt-FsX">
+                                                        <rect key="frame" x="10" y="10" width="373" height="52"/>
+                                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Why do we pray the Rosary">
+                                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                                            <color key="baseForegroundColor" name="title_text"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <segue destination="1oz-Nk-Ptc" kind="show" id="Nue-Fl-Gvg"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" name="body_background"/>
+                                                <constraints>
+                                                    <constraint firstItem="ICf-rt-FsX" firstAttribute="top" secondItem="t5D-v9-mgl" secondAttribute="top" constant="10" id="BZU-Dl-6Cq"/>
+                                                    <constraint firstItem="ICf-rt-FsX" firstAttribute="leading" secondItem="t5D-v9-mgl" secondAttribute="leading" constant="10" id="On4-HS-jZQ"/>
+                                                    <constraint firstAttribute="bottom" secondItem="ICf-rt-FsX" secondAttribute="bottom" id="YZ2-vl-guG"/>
+                                                    <constraint firstAttribute="trailing" secondItem="ICf-rt-FsX" secondAttribute="trailing" constant="10" id="jCX-xp-JxJ"/>
+                                                    <constraint firstAttribute="height" constant="62" id="rNH-8O-fZw"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jip-wc-dvR">
+                                                <rect key="frame" x="0.0" y="126" width="393" height="62"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAq-6m-TZP">
+                                                        <rect key="frame" x="10" y="10" width="373" height="52"/>
+                                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Why do we read the Bible">
+                                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                                            <color key="baseForegroundColor" name="title_text"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <segue destination="6NS-ME-qjY" kind="show" id="cF6-0Y-IDP"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" name="body_background"/>
+                                                <constraints>
+                                                    <constraint firstItem="ZAq-6m-TZP" firstAttribute="top" secondItem="Jip-wc-dvR" secondAttribute="top" constant="10" id="TTp-TI-xzV"/>
+                                                    <constraint firstAttribute="bottom" secondItem="ZAq-6m-TZP" secondAttribute="bottom" id="Z8l-cj-ZjY"/>
+                                                    <constraint firstItem="ZAq-6m-TZP" firstAttribute="leading" secondItem="Jip-wc-dvR" secondAttribute="leading" constant="10" id="geX-S5-tzl"/>
+                                                    <constraint firstAttribute="trailing" secondItem="ZAq-6m-TZP" secondAttribute="trailing" constant="10" id="uug-lp-BI6"/>
+                                                    <constraint firstAttribute="height" constant="62" id="xcK-nk-MHN"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hvf-HS-d6h">
+                                                <rect key="frame" x="0.0" y="189" width="393" height="62"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BdA-Qv-gob">
+                                                        <rect key="frame" x="10" y="10" width="373" height="52"/>
+                                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Prayers in the Rosary">
+                                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                                            <color key="baseForegroundColor" name="title_text"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <segue destination="7XP-sh-uP4" kind="show" id="98k-ZN-bIK"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" name="body_background"/>
+                                                <constraints>
+                                                    <constraint firstItem="BdA-Qv-gob" firstAttribute="top" secondItem="hvf-HS-d6h" secondAttribute="top" constant="10" id="3td-xF-Aeb"/>
+                                                    <constraint firstAttribute="height" constant="62" id="6mm-cE-ztn"/>
+                                                    <constraint firstAttribute="bottom" secondItem="BdA-Qv-gob" secondAttribute="bottom" id="RIT-pO-xqY"/>
+                                                    <constraint firstItem="BdA-Qv-gob" firstAttribute="leading" secondItem="hvf-HS-d6h" secondAttribute="leading" constant="10" id="XWD-z3-1Yu"/>
+                                                    <constraint firstAttribute="trailing" secondItem="BdA-Qv-gob" secondAttribute="trailing" constant="10" id="ono-WW-gio"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bvE-8B-KNr">
+                                                <rect key="frame" x="0.0" y="252" width="393" height="62"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KrD-IJ-wq3">
+                                                        <rect key="frame" x="10" y="10" width="373" height="52"/>
+                                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Closing Prayers">
+                                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                                            <color key="baseForegroundColor" name="title_text"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <segue destination="W3h-sz-Zle" kind="show" id="Dlc-d7-74y"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" name="body_background"/>
+                                                <constraints>
+                                                    <constraint firstItem="KrD-IJ-wq3" firstAttribute="leading" secondItem="bvE-8B-KNr" secondAttribute="leading" constant="10" id="4M6-78-Dus"/>
+                                                    <constraint firstAttribute="bottom" secondItem="KrD-IJ-wq3" secondAttribute="bottom" id="N5E-bs-eRI"/>
+                                                    <constraint firstItem="KrD-IJ-wq3" firstAttribute="top" secondItem="bvE-8B-KNr" secondAttribute="top" constant="10" id="UAo-JY-CQc"/>
+                                                    <constraint firstAttribute="trailing" secondItem="KrD-IJ-wq3" secondAttribute="trailing" constant="10" id="YH9-nG-MDO"/>
+                                                    <constraint firstAttribute="height" constant="62" id="jCK-qf-RHy"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nRX-jJ-AHC">
+                                                <rect key="frame" x="0.0" y="315" width="393" height="62"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iiO-dC-pqW">
+                                                        <rect key="frame" x="10" y="10" width="373" height="52"/>
+                                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Litany of the Blessed Virgin Mary">
+                                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
+                                                            <color key="baseForegroundColor" name="title_text"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <segue destination="oB0-Tp-Llz" kind="show" id="Jft-10-A1x"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" name="body_background"/>
+                                                <constraints>
+                                                    <constraint firstItem="iiO-dC-pqW" firstAttribute="leading" secondItem="nRX-jJ-AHC" secondAttribute="leading" constant="10" id="J1p-La-dog"/>
+                                                    <constraint firstAttribute="trailing" secondItem="iiO-dC-pqW" secondAttribute="trailing" constant="10" id="Ljr-vb-sS2"/>
+                                                    <constraint firstAttribute="bottom" secondItem="iiO-dC-pqW" secondAttribute="bottom" id="ff5-o2-4Ru"/>
+                                                    <constraint firstItem="iiO-dC-pqW" firstAttribute="top" secondItem="nRX-jJ-AHC" secondAttribute="top" constant="10" id="h2p-Bh-ieK"/>
+                                                    <constraint firstAttribute="height" constant="62" id="rzJ-mR-13G"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ula-7r-mPT">
+                                                <rect key="frame" x="0.0" y="378" width="393" height="62"/>
+                                                <color key="backgroundColor" name="body_background"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="62" id="7GN-Bx-SiB"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" name="stack_background"/>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" name="body_background"/>
+                                <constraints>
+                                    <constraint firstItem="4oz-Cr-LXf" firstAttribute="trailing" secondItem="xoY-eH-j6Y" secondAttribute="trailing" id="4Ce-Cr-Yiq"/>
+                                    <constraint firstItem="4oz-Cr-LXf" firstAttribute="width" secondItem="xja-79-uu0" secondAttribute="width" id="Nud-hJ-ehP"/>
+                                    <constraint firstItem="4oz-Cr-LXf" firstAttribute="bottom" secondItem="xoY-eH-j6Y" secondAttribute="bottom" id="PK8-iX-Q6f"/>
+                                    <constraint firstItem="4oz-Cr-LXf" firstAttribute="top" secondItem="xoY-eH-j6Y" secondAttribute="top" id="fmg-XE-ObD"/>
+                                    <constraint firstItem="4oz-Cr-LXf" firstAttribute="leading" secondItem="xoY-eH-j6Y" secondAttribute="leading" id="g7r-fM-mFH"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="xoY-eH-j6Y"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="xja-79-uu0"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wgd-Hx-emS"/>
+                        <color key="backgroundColor" name="nav_background"/>
+                        <constraints>
+                            <constraint firstItem="DmT-fw-0ZB" firstAttribute="trailing" secondItem="wgd-Hx-emS" secondAttribute="trailing" id="H7Y-F5-MVk"/>
+                            <constraint firstItem="DmT-fw-0ZB" firstAttribute="leading" secondItem="wgd-Hx-emS" secondAttribute="leading" id="IuU-sK-zZX"/>
+                            <constraint firstAttribute="bottom" secondItem="DmT-fw-0ZB" secondAttribute="bottom" id="MBK-hS-6De"/>
+                            <constraint firstItem="DmT-fw-0ZB" firstAttribute="top" secondItem="wgd-Hx-emS" secondAttribute="top" id="RJf-um-PfH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Main Menu" largeTitleDisplayMode="always" id="L3c-co-mMy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pYM-W3-yIN" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="999" y="-289"/>
+        </scene>
     </scenes>
     <resources>
         <image name="30R2 Confession" width="600" height="900"/>
@@ -4706,7 +4824,7 @@ Gifted Books and Media</string>
         <image name="gw-paperback" width="1800" height="2700"/>
         <image name="hr-appicon-img" width="341.33334350585938" height="341.33334350585938"/>
         <image name="jr-appicon-img" width="1024" height="1024"/>
-        <image name="menucard" catalog="system" width="108" height="128"/>
+        <image name="pencil.circle.fill" catalog="system" width="128" height="123"/>
         <image name="ph-ebook" width="600" height="600"/>
         <image name="pr-appicon-img" width="341.33334350585938" height="341.33334350585938"/>
         <image name="pr-paperback" width="1800" height="2700"/>
@@ -4733,9 +4851,6 @@ Gifted Books and Media</string>
         </namedColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
