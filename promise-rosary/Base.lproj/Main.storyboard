@@ -74,7 +74,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NQr-oX-yOh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1563" y="-423"/>
+            <point key="canvasLocation" x="-2323" y="-299"/>
         </scene>
         <!--Main Menu-->
         <scene sceneID="cEK-sg-lCV">
@@ -88,54 +88,10 @@
                                 <rect key="frame" x="0.0" y="103" width="393" height="749"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="MQV-TM-sXx">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="629"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="503"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mex-z2-HMU">
-                                                <rect key="frame" x="0.0" y="0.0" width="393" height="62"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVE-NR-4gr">
-                                                        <rect key="frame" x="10" y="10" width="373" height="52"/>
-                                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Topics">
-                                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
-                                                            <color key="baseForegroundColor" name="title_text"/>
-                                                        </buttonConfiguration>
-                                                    </button>
-                                                </subviews>
-                                                <color key="backgroundColor" name="body_background"/>
-                                                <constraints>
-                                                    <constraint firstItem="wVE-NR-4gr" firstAttribute="top" secondItem="mex-z2-HMU" secondAttribute="top" constant="10" id="4cT-jI-LbC"/>
-                                                    <constraint firstAttribute="bottom" secondItem="wVE-NR-4gr" secondAttribute="bottom" id="701-lH-oeR"/>
-                                                    <constraint firstAttribute="height" constant="62" id="Ja3-LB-iPc"/>
-                                                    <constraint firstItem="wVE-NR-4gr" firstAttribute="leading" secondItem="mex-z2-HMU" secondAttribute="leading" constant="10" id="PrZ-Qp-vbm"/>
-                                                    <constraint firstAttribute="trailing" secondItem="wVE-NR-4gr" secondAttribute="trailing" constant="10" id="qfZ-fW-W1l"/>
-                                                </constraints>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rCJ-wn-2Lo">
-                                                <rect key="frame" x="0.0" y="63" width="393" height="62"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbF-bK-Mly">
-                                                        <rect key="frame" x="10" y="10" width="373" height="52"/>
-                                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Notes">
-                                                            <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
-                                                            <color key="baseForegroundColor" name="title_text"/>
-                                                        </buttonConfiguration>
-                                                    </button>
-                                                </subviews>
-                                                <color key="backgroundColor" name="body_background"/>
-                                                <constraints>
-                                                    <constraint firstItem="VbF-bK-Mly" firstAttribute="leading" secondItem="rCJ-wn-2Lo" secondAttribute="leading" constant="10" id="2N0-iJ-vRu"/>
-                                                    <constraint firstItem="VbF-bK-Mly" firstAttribute="top" secondItem="rCJ-wn-2Lo" secondAttribute="top" constant="10" id="6CR-FP-wxu"/>
-                                                    <constraint firstAttribute="trailing" secondItem="VbF-bK-Mly" secondAttribute="trailing" constant="10" id="IWH-4Y-ptS"/>
-                                                    <constraint firstAttribute="bottom" secondItem="VbF-bK-Mly" secondAttribute="bottom" id="Qfa-I6-vwe"/>
-                                                    <constraint firstAttribute="height" constant="62" id="m8Z-PV-lWT"/>
-                                                </constraints>
-                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lPO-oa-zYl">
-                                                <rect key="frame" x="0.0" y="126" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="62"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vp7-ZT-HVw">
                                                         <rect key="frame" x="10" y="10" width="373" height="52"/>
@@ -160,7 +116,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S0e-Hq-u01">
-                                                <rect key="frame" x="0.0" y="189" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="63" width="393" height="62"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QH9-NF-i7F">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="62"/>
@@ -185,7 +141,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oNm-EU-J2K">
-                                                <rect key="frame" x="0.0" y="252" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="126" width="393" height="62"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TeB-VX-dEL">
                                                         <rect key="frame" x="10" y="10" width="373" height="42"/>
@@ -210,7 +166,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bli-T1-nTB">
-                                                <rect key="frame" x="0.0" y="315" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="189" width="393" height="62"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SDd-Oi-8F3">
                                                         <rect key="frame" x="10" y="10" width="373" height="42"/>
@@ -235,7 +191,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kxD-y0-75G">
-                                                <rect key="frame" x="0.0" y="378" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="252" width="393" height="62"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lsb-7r-69M">
                                                         <rect key="frame" x="10" y="10" width="373" height="42"/>
@@ -260,7 +216,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vyr-5t-TkC">
-                                                <rect key="frame" x="0.0" y="441" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="315" width="393" height="62"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9o-E0-NNK">
                                                         <rect key="frame" x="10" y="10" width="373" height="42"/>
@@ -285,7 +241,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gtl-zv-GMB">
-                                                <rect key="frame" x="0.0" y="504" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="378" width="393" height="62"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJW-Wf-wQB">
                                                         <rect key="frame" x="10" y="10" width="373" height="42"/>
@@ -310,7 +266,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hqp-2U-tfW">
-                                                <rect key="frame" x="0.0" y="567" width="393" height="62"/>
+                                                <rect key="frame" x="0.0" y="441" width="393" height="62"/>
                                                 <color key="backgroundColor" name="body_background"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="62" id="ZA9-j4-95i"/>
@@ -349,7 +305,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QW6-0T-6dZ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7378" y="-242"/>
+            <point key="canvasLocation" x="-4244" y="177"/>
+        </scene>
+        <!--topics-->
+        <scene sceneID="aYp-4P-qbL">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="9998" storyboardName="topics" id="ZJK-ja-s3r" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Rq3-Ub-VRT"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZHq-ZI-MXm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3296" y="127"/>
         </scene>
         <!--Closing Prayers-->
         <scene sceneID="EZe-4n-nS9">
@@ -378,7 +344,6 @@
                                                         <rect key="frame" x="10" y="0.0" width="373" height="372.33333333333331"/>
                                                         <string key="text">Hail, holy Queen, mother of mercy, our life, our sweetness, and our hope. To thee do we cry, poor banished children of Eve. To thee do we send up our sighs mourning and weeping in this valley of tears. Turn then, most gracious advocate, thine eyes of mercy toward us, and after this our exile show us the blessed fruit of thy womb, Jesus. O clement, O loving, O sweet Virgin Mary.</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -402,7 +367,6 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pray for us, O Holy Mother of God.  " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EbV-b0-hYG">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="50"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -426,7 +390,6 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="That we may be made worthy of the promises of Christ." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DZ0-XR-GtM">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="57.333333333333336"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -452,7 +415,6 @@
                                                         <string key="text">Let us pray, 
 O God, whose only begotten Son, by His life, death, and resurrection, has purchased for us the rewards of eternal salvation. Grant, we beseech Thee, that while meditating on these mysteries of the most holy Rosary of the Blessed Virgin Mary, that we may both imitate what they contain and obtain what they promise, through Christ our Lord. Amen.</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -478,7 +440,6 @@ O God, whose only begotten Son, by His life, death, and resurrection, has purcha
                                                         <string key="text">Most Sacred Heart of Jesus, have mercy on us.
 Immaculate Heart of Mary, pray for us.</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -502,7 +463,6 @@ Immaculate Heart of Mary, pray for us.</string>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In the name of the Father, and of the Son, and of the Holy Spirit. Amen." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yyf-jW-zJg">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="114.66666666666667"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -660,7 +620,6 @@ Announce the Next Mystery; then say the “Our Father” and repeat the steps
 Say the closing prayers: the “Hail Holy Queen” and “Final Prayer”
 Make the “Sign of the Cross”</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -732,7 +691,6 @@ Make the “Sign of the Cross”</string>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Prayers of the Rosary are inspired from Scripture." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g4o-YS-G12">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="57.333333333333336"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -756,7 +714,6 @@ Make the “Sign of the Cross”</string>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We meditate on the life and ministry of Jesus." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCS-jI-d1e">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="57.333333333333336"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -780,7 +737,6 @@ Make the “Sign of the Cross”</string>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We are invoking the intercession of the Blessed Mother each time we recite the Rosary" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8QE-PJ-uQe">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="86"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -804,7 +760,6 @@ Make the “Sign of the Cross”</string>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We are invoking the protection of our Blessed Mother." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G3a-vu-71b">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="57.333333333333336"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -828,7 +783,6 @@ Make the “Sign of the Cross”</string>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We are seeking the intervention of our Blessed Mother." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mFJ-MU-EzM">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="57.333333333333336"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -852,7 +806,6 @@ Make the “Sign of the Cross”</string>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Our Blessed Mother will draw us close to Jesus and teach us to do His will." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cqq-QT-OyB">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="86"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -876,7 +829,6 @@ Make the “Sign of the Cross”</string>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rosary is a powerful weapon against Satan and his army of demons" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ob1-5l-IVa">
                                                         <rect key="frame" x="10" y="0.0" width="373" height="86"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                        <color key="textColor" name="title_text"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -2561,10 +2513,11 @@ Gifted Books and Media</string>
             <objects>
                 <viewControllerPlaceholder storyboardName="topics" id="Gsc-MM-JVA" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="8cx-mn-ZLA"/>
+                    <navigationItem key="navigationItem" id="7rB-dH-Kpr"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zWO-4g-1m8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-175" y="468"/>
+            <point key="canvasLocation" x="-2122" y="468"/>
         </scene>
         <!--Paperback-->
         <scene sceneID="nU4-mw-lmN">
