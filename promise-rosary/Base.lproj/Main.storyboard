@@ -307,16 +307,6 @@
             </objects>
             <point key="canvasLocation" x="-4244" y="177"/>
         </scene>
-        <!--topics-->
-        <scene sceneID="aYp-4P-qbL">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="9998" storyboardName="topics" id="ZJK-ja-s3r" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="Rq3-Ub-VRT"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZHq-ZI-MXm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-3296" y="127"/>
-        </scene>
         <!--Closing Prayers-->
         <scene sceneID="EZe-4n-nS9">
             <objects>
@@ -1993,7 +1983,7 @@ Grant, we beseech Thee, O Lord God, that we Thy Servants may enjoy perpetual hea
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vGC-Ev-XX6">
                                                 <rect key="frame" x="0.0" y="505.66666666666663" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sr-appicon-img" translatesAutoresizingMaskIntoConstraints="NO" id="BXE-sW-Cc4">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sr_appicon" translatesAutoresizingMaskIntoConstraints="NO" id="BXE-sW-Cc4">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -2050,7 +2040,7 @@ Grant, we beseech Thee, O Lord God, that we Thy Servants may enjoy perpetual hea
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ae-Qy-mTw">
                                                 <rect key="frame" x="0.0" y="949.33333333333326" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ssotc_appicon-img" translatesAutoresizingMaskIntoConstraints="NO" id="6uj-gO-CII">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ssotc_appicon" translatesAutoresizingMaskIntoConstraints="NO" id="6uj-gO-CII">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -2107,7 +2097,7 @@ Grant, we beseech Thee, O Lord God, that we Thy Servants may enjoy perpetual hea
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dd3-zD-HYz">
                                                 <rect key="frame" x="0.0" y="1388.3333333333333" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jr-appicon-img" translatesAutoresizingMaskIntoConstraints="NO" id="cMX-z9-hUN">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jesus_rosary_appicon" translatesAutoresizingMaskIntoConstraints="NO" id="cMX-z9-hUN">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -2165,7 +2155,7 @@ Grant, we beseech Thee, O Lord God, that we Thy Servants may enjoy perpetual hea
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gvM-hO-6Ts">
                                                 <rect key="frame" x="0.0" y="1922.6666666666667" width="393" height="200.00000000000023"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ea-appicon-img" translatesAutoresizingMaskIntoConstraints="NO" id="9E8-NU-SnN">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ea_appicon" translatesAutoresizingMaskIntoConstraints="NO" id="9E8-NU-SnN">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -2223,7 +2213,7 @@ Grant, we beseech Thee, O Lord God, that we Thy Servants may enjoy perpetual hea
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="40T-IH-IXR">
                                                 <rect key="frame" x="0.0" y="2535.6666666666665" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fam_pra-appicon-img" translatesAutoresizingMaskIntoConstraints="NO" id="4Vl-ez-XS2">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fp_appicon" translatesAutoresizingMaskIntoConstraints="NO" id="4Vl-ez-XS2">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -4764,27 +4754,27 @@ Gifted Books and Media</string>
         <image name="TJWM Mock 30" width="600" height="900"/>
         <image name="YEOC Mock 30" width="600" height="900"/>
         <image name="bp-ebook" width="600" height="600"/>
-        <image name="ea-appicon-img" width="1024" height="1024"/>
         <image name="ea-book" width="600" height="600"/>
+        <image name="ea_appicon" width="300" height="300"/>
         <image name="eoc-c-ebook" width="600" height="600"/>
         <image name="eoc-ebook" width="600" height="600"/>
         <image name="eoc-y-ebook" width="600" height="600"/>
-        <image name="fam_pra-appicon-img" width="1024" height="1024"/>
         <image name="ffpam-ebook" width="600" height="600"/>
         <image name="folder.fill" catalog="system" width="128" height="96"/>
+        <image name="fp_appicon" width="300" height="300"/>
         <image name="gb-appicon-img" width="278" height="278"/>
         <image name="godlychild-ebook" width="600" height="600"/>
         <image name="gw-paperback" width="1800" height="2700"/>
         <image name="hr-appicon-img" width="341.33334350585938" height="341.33334350585938"/>
-        <image name="jr-appicon-img" width="1024" height="1024"/>
+        <image name="jesus_rosary_appicon" width="300" height="300"/>
         <image name="pencil.circle.fill" catalog="system" width="128" height="123"/>
         <image name="ph-ebook" width="600" height="600"/>
         <image name="pr-appicon-img" width="341.33334350585938" height="341.33334350585938"/>
         <image name="pr-paperback" width="1800" height="2700"/>
         <image name="rtg-ebook" width="600" height="600"/>
-        <image name="sr-appicon-img" width="1024" height="1024"/>
         <image name="sr-ebook" width="600" height="600"/>
-        <image name="ssotc_appicon-img" width="1024" height="1024"/>
+        <image name="sr_appicon" width="300" height="300"/>
+        <image name="ssotc_appicon" width="300" height="300"/>
         <image name="sstc-ebook" width="600" height="600"/>
         <image name="tjwm-ebook" width="600" height="600"/>
         <namedColor name="body_background">
