@@ -41,6 +41,7 @@
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" name="nav_background"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
@@ -64,6 +65,7 @@
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" name="nav_background"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
@@ -2521,7 +2523,7 @@ Gifted Books and Media</string>
                                 <rect key="frame" x="0.0" y="103" width="393" height="666"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dkt-Sa-ZFb">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="6585.333333333333"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="7381"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xwl-sj-Is7">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="40"/>
@@ -2532,7 +2534,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Gl-Qv-hiL">
                                                 <rect key="frame" x="0.0" y="40" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EA Mock 30" translatesAutoresizingMaskIntoConstraints="NO" id="vN0-J0-CLs">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ea_paperback" translatesAutoresizingMaskIntoConstraints="NO" id="vN0-J0-CLs">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="bpT-kF-GoB"/>
@@ -2592,7 +2594,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pmZ-Ob-m4z">
                                                 <rect key="frame" x="0.0" y="445.33333333333337" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="30R2 Confession" translatesAutoresizingMaskIntoConstraints="NO" id="Mi4-8c-S8Z">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="confession_paperback" translatesAutoresizingMaskIntoConstraints="NO" id="Mi4-8c-S8Z">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="G5M-wW-1Zc"/>
@@ -2653,7 +2655,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ysw-2o-ZF5">
                                                 <rect key="frame" x="0.0" y="876.66666666666663" width="393" height="199.99999999999989"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EOC Mock 30" translatesAutoresizingMaskIntoConstraints="NO" id="MlV-Zf-iX6">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eoc_paperback" translatesAutoresizingMaskIntoConstraints="NO" id="MlV-Zf-iX6">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="ylF-Vo-m1O"/>
@@ -2713,7 +2715,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PNS-fQ-VoD">
                                                 <rect key="frame" x="0.0" y="1255.6666666666667" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GC Mock 30" translatesAutoresizingMaskIntoConstraints="NO" id="89d-h6-xJX">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gc_paperback" translatesAutoresizingMaskIntoConstraints="NO" id="89d-h6-xJX">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="WNc-GP-Cdc"/>
@@ -2774,7 +2776,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n70-jN-9dM">
                                                 <rect key="frame" x="0.0" y="1723" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RTG Mock 30" translatesAutoresizingMaskIntoConstraints="NO" id="WcH-Qe-zpD">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rtg_paperback" translatesAutoresizingMaskIntoConstraints="NO" id="WcH-Qe-zpD">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="kaO-op-KHD"/>
@@ -2835,7 +2837,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XeT-KG-N88">
                                                 <rect key="frame" x="0.0" y="2180.6666666666665" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SR Mock 30" translatesAutoresizingMaskIntoConstraints="NO" id="Lug-cZ-b4N">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sr_paperback" translatesAutoresizingMaskIntoConstraints="NO" id="Lug-cZ-b4N">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="nqz-fS-IXi"/>
@@ -2895,7 +2897,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SNB-Sj-nO4">
                                                 <rect key="frame" x="0.0" y="2586" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YEOC Mock 30" translatesAutoresizingMaskIntoConstraints="NO" id="Uc4-uD-724">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eoc_y_paperback" translatesAutoresizingMaskIntoConstraints="NO" id="Uc4-uD-724">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="hBj-M5-SO5"/>
@@ -2956,7 +2958,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EPr-4M-i5m">
                                                 <rect key="frame" x="0.0" y="3070" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GPBAL Mock 30" translatesAutoresizingMaskIntoConstraints="NO" id="FLQ-0R-nFX">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gp_paperback" translatesAutoresizingMaskIntoConstraints="NO" id="FLQ-0R-nFX">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="D4R-ep-aEX"/>
@@ -3017,7 +3019,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CLb-vY-MIZ">
                                                 <rect key="frame" x="0.0" y="3483" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PH Mock 30" translatesAutoresizingMaskIntoConstraints="NO" id="8MC-OY-TbJ">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ph_paperback" translatesAutoresizingMaskIntoConstraints="NO" id="8MC-OY-TbJ">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="L7j-af-R9s"/>
@@ -3078,7 +3080,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1e8-8b-57b">
                                                 <rect key="frame" x="0.0" y="3926.3333333333335" width="393" height="200.00000000000045"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SSOTC Mock 30" translatesAutoresizingMaskIntoConstraints="NO" id="k3i-By-6Bk">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ssotc_paperback" translatesAutoresizingMaskIntoConstraints="NO" id="k3i-By-6Bk">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="fCv-vr-Bwd"/>
@@ -3138,7 +3140,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XLe-Rz-5sq">
                                                 <rect key="frame" x="0.0" y="4331.666666666667" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TJWM Mock 30" translatesAutoresizingMaskIntoConstraints="NO" id="2ad-H1-IMv">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tjim_paperback" translatesAutoresizingMaskIntoConstraints="NO" id="2ad-H1-IMv">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="CPG-0E-lS2"/>
@@ -3199,7 +3201,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UfX-P6-ib4">
                                                 <rect key="frame" x="0.0" y="4737" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CEOC Mock 30" translatesAutoresizingMaskIntoConstraints="NO" id="Y3u-Kq-OsE">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eoc_c_paperback" translatesAutoresizingMaskIntoConstraints="NO" id="Y3u-Kq-OsE">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="dxD-xE-yDZ"/>
@@ -3260,7 +3262,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O4S-SV-RYe">
                                                 <rect key="frame" x="0.0" y="5185.666666666667" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FF Mock 30" translatesAutoresizingMaskIntoConstraints="NO" id="czF-da-Fdm">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ffpam_paperback" translatesAutoresizingMaskIntoConstraints="NO" id="czF-da-Fdm">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="MPk-Tv-X20"/>
@@ -3321,7 +3323,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q5N-Kd-GZR">
                                                 <rect key="frame" x="0.0" y="5660.666666666667" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pr-paperback" translatesAutoresizingMaskIntoConstraints="NO" id="2vN-i1-AQt">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pr_paperback" translatesAutoresizingMaskIntoConstraints="NO" id="2vN-i1-AQt">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -3379,7 +3381,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n32-uD-tmO">
                                                 <rect key="frame" x="0.0" y="6110" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gw-paperback" translatesAutoresizingMaskIntoConstraints="NO" id="Zte-SD-QfK">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="365promises_paperback" translatesAutoresizingMaskIntoConstraints="NO" id="Zte-SD-QfK">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -3434,6 +3436,120 @@ Gifted Books and Media</string>
                                                     <constraint firstAttribute="height" constant="62" id="1bO-P6-5dR"/>
                                                 </constraints>
                                             </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c2e-AD-wNi">
+                                                <rect key="frame" x="0.0" y="6585.333333333333" width="393" height="200"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="family_prayer" translatesAutoresizingMaskIntoConstraints="NO" id="E0o-6S-2Yb">
+                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="9tx-MF-SO7"/>
+                                                    <constraint firstAttribute="bottom" secondItem="E0o-6S-2Yb" secondAttribute="bottom" id="Fll-x4-yfV"/>
+                                                    <constraint firstItem="E0o-6S-2Yb" firstAttribute="leading" secondItem="c2e-AD-wNi" secondAttribute="leading" id="GI8-30-sDC"/>
+                                                    <constraint firstItem="E0o-6S-2Yb" firstAttribute="top" secondItem="c2e-AD-wNi" secondAttribute="top" id="RG5-sU-Z6z"/>
+                                                    <constraint firstAttribute="trailing" secondItem="E0o-6S-2Yb" secondAttribute="trailing" id="rAy-Wb-ASb"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gf8-aY-Tqq">
+                                                <rect key="frame" x="0.0" y="6785.333333333333" width="393" height="62"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Family Prayer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bsw-ag-mmP">
+                                                        <rect key="frame" x="10" y="0.0" width="373" height="62"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="Bsw-ag-mmP" firstAttribute="leading" secondItem="Gf8-aY-Tqq" secondAttribute="leading" constant="10" id="EDm-Ws-iff"/>
+                                                    <constraint firstItem="Bsw-ag-mmP" firstAttribute="top" secondItem="Gf8-aY-Tqq" secondAttribute="top" id="HRz-HB-yFB"/>
+                                                    <constraint firstAttribute="height" constant="62" id="owY-QF-xC9"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Bsw-ag-mmP" secondAttribute="bottom" id="sRt-Jh-nz3"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Bsw-ag-mmP" secondAttribute="trailing" constant="10" id="zg7-4T-oqq"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ePI-4R-nMf">
+                                                <rect key="frame" x="0.0" y="6847.333333333333" width="393" height="68"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="A book with simple prayers to engage the whole family in prayer and worship. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="viM-BE-zIP">
+                                                        <rect key="frame" x="10" y="0.0" width="373" height="48"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="viM-BE-zIP" firstAttribute="top" secondItem="ePI-4R-nMf" secondAttribute="top" id="8cU-qh-KzK"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="Dpd-Ss-aI1"/>
+                                                    <constraint firstItem="viM-BE-zIP" firstAttribute="leading" secondItem="ePI-4R-nMf" secondAttribute="leading" constant="10" id="JaQ-52-Mde"/>
+                                                    <constraint firstAttribute="bottom" secondItem="viM-BE-zIP" secondAttribute="bottom" constant="20" id="WsR-Cy-plg"/>
+                                                    <constraint firstAttribute="trailing" secondItem="viM-BE-zIP" secondAttribute="trailing" constant="10" id="pVs-qC-eBB"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9d3-0z-VlW">
+                                                <rect key="frame" x="0.0" y="6915.333333333333" width="393" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="p6f-CU-3FJ"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gg3-4N-kx8">
+                                                <rect key="frame" x="0.0" y="6965.333333333333" width="393" height="200"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="healing_paperback" translatesAutoresizingMaskIntoConstraints="NO" id="9gS-PK-Aqc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="9gS-PK-Aqc" secondAttribute="trailing" id="5mj-db-rWv"/>
+                                                    <constraint firstItem="9gS-PK-Aqc" firstAttribute="leading" secondItem="Gg3-4N-kx8" secondAttribute="leading" id="JCb-iZ-LYz"/>
+                                                    <constraint firstAttribute="bottom" secondItem="9gS-PK-Aqc" secondAttribute="bottom" id="hO8-mx-ei9"/>
+                                                    <constraint firstAttribute="height" constant="200" id="k40-la-FEA"/>
+                                                    <constraint firstItem="9gS-PK-Aqc" firstAttribute="top" secondItem="Gg3-4N-kx8" secondAttribute="top" id="tA1-IM-Iox"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pI3-dB-ge4">
+                                                <rect key="frame" x="0.0" y="7165.333333333333" width="393" height="62"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Healing Prayer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y29-FK-3Bk">
+                                                        <rect key="frame" x="10" y="0.0" width="373" height="62"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="62" id="B3h-lF-dtQ"/>
+                                                    <constraint firstItem="Y29-FK-3Bk" firstAttribute="top" secondItem="pI3-dB-ge4" secondAttribute="top" id="JCk-ee-GG3"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Y29-FK-3Bk" secondAttribute="bottom" id="jMC-hP-DVV"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Y29-FK-3Bk" secondAttribute="trailing" constant="10" id="r9j-Kf-okB"/>
+                                                    <constraint firstItem="Y29-FK-3Bk" firstAttribute="leading" secondItem="pI3-dB-ge4" secondAttribute="leading" constant="10" id="sxw-2B-pWC"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PlV-QZ-Rff">
+                                                <rect key="frame" x="0.0" y="7227.333333333333" width="393" height="91.66666666666697"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="Experience the healing power of God through simple prayers that are rooted in God's Word. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lnD-9K-TA7">
+                                                        <rect key="frame" x="10" y="0.0" width="373" height="71.666666666666671"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="lnD-9K-TA7" secondAttribute="bottom" constant="20" id="ENx-6O-Hyt"/>
+                                                    <constraint firstItem="lnD-9K-TA7" firstAttribute="top" secondItem="PlV-QZ-Rff" secondAttribute="top" id="ReX-DW-eJw"/>
+                                                    <constraint firstAttribute="trailing" secondItem="lnD-9K-TA7" secondAttribute="trailing" constant="10" id="VvP-6a-tPm"/>
+                                                    <constraint firstItem="lnD-9K-TA7" firstAttribute="leading" secondItem="PlV-QZ-Rff" secondAttribute="leading" constant="10" id="qoe-Jj-ZST"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="qvq-Qk-hfJ"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K1b-f2-0y8">
+                                                <rect key="frame" x="0.0" y="7319" width="393" height="62"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="62" id="TRY-kj-SS5"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                     </stackView>
                                 </subviews>
@@ -3485,7 +3601,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XZy-pA-kNB">
                                                 <rect key="frame" x="0.0" y="40" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eoc-ebook" translatesAutoresizingMaskIntoConstraints="NO" id="0Cp-2a-MNX">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eoc_ebook" translatesAutoresizingMaskIntoConstraints="NO" id="0Cp-2a-MNX">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="HNF-ic-8Rd"/>
@@ -3533,7 +3649,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vB4-Zq-zMQ">
                                                 <rect key="frame" x="0.0" y="399" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Confession-ebook" translatesAutoresizingMaskIntoConstraints="NO" id="N3Z-7z-EoC">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="confession_ebook" translatesAutoresizingMaskIntoConstraints="NO" id="N3Z-7z-EoC">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="RHp-86-RZb"/>
@@ -3594,7 +3710,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="shz-VG-bdt">
                                                 <rect key="frame" x="0.0" y="830.33333333333337" width="393" height="200.00000000000011"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ea-book" translatesAutoresizingMaskIntoConstraints="NO" id="pHE-hd-5jv">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ea_ebook" translatesAutoresizingMaskIntoConstraints="NO" id="pHE-hd-5jv">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="1Wd-Dz-SJt"/>
@@ -3654,7 +3770,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="beZ-K3-aIF">
                                                 <rect key="frame" x="0.0" y="1235.6666666666667" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sstc-ebook" translatesAutoresizingMaskIntoConstraints="NO" id="mOi-Zw-MK1">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ssotc_ebook" translatesAutoresizingMaskIntoConstraints="NO" id="mOi-Zw-MK1">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -3711,7 +3827,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zzn-hu-qA3">
                                                 <rect key="frame" x="0.0" y="1665.6666666666667" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rtg-ebook" translatesAutoresizingMaskIntoConstraints="NO" id="haZ-tA-ymg">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rtg_ebook" translatesAutoresizingMaskIntoConstraints="NO" id="haZ-tA-ymg">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -3769,7 +3885,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uz3-dr-ZT1">
                                                 <rect key="frame" x="0.0" y="2148" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ffpam-ebook" translatesAutoresizingMaskIntoConstraints="NO" id="ezz-Sb-HuZ">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ffpam_ebook" translatesAutoresizingMaskIntoConstraints="NO" id="ezz-Sb-HuZ">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -3827,7 +3943,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cDy-7F-L1y">
                                                 <rect key="frame" x="0.0" y="2630.3333333333335" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tjwm-ebook" translatesAutoresizingMaskIntoConstraints="NO" id="kl5-k2-Zn3">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tjim_ebook" translatesAutoresizingMaskIntoConstraints="NO" id="kl5-k2-Zn3">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -3884,7 +4000,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vm1-DN-09J">
                                                 <rect key="frame" x="0.0" y="3060.3333333333335" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eoc-y-ebook" translatesAutoresizingMaskIntoConstraints="NO" id="eph-RV-uYG">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="y_eoc_ebook" translatesAutoresizingMaskIntoConstraints="NO" id="eph-RV-uYG">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -3942,7 +4058,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LO5-Sq-86K">
                                                 <rect key="frame" x="0.0" y="3569" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eoc-c-ebook" translatesAutoresizingMaskIntoConstraints="NO" id="zHT-el-6p4">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="c_eoc_ebook" translatesAutoresizingMaskIntoConstraints="NO" id="zHT-el-6p4">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -4000,7 +4116,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uA0-2g-3Ws">
                                                 <rect key="frame" x="0.0" y="4025" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ph-ebook" translatesAutoresizingMaskIntoConstraints="NO" id="vd0-eQ-YwW">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ph_ebook" translatesAutoresizingMaskIntoConstraints="NO" id="vd0-eQ-YwW">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -4058,7 +4174,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DnX-Ec-S1c">
                                                 <rect key="frame" x="0.0" y="4493" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bp-ebook" translatesAutoresizingMaskIntoConstraints="NO" id="2re-OE-p3G">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bp_ebook" translatesAutoresizingMaskIntoConstraints="NO" id="2re-OE-p3G">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -4116,7 +4232,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="640-4B-Olz">
                                                 <rect key="frame" x="0.0" y="4913.333333333333" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sr-ebook" translatesAutoresizingMaskIntoConstraints="NO" id="5Vk-nW-QEs">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sr_ebook" translatesAutoresizingMaskIntoConstraints="NO" id="5Vk-nW-QEs">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -4173,7 +4289,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dkt-qf-zLE">
                                                 <rect key="frame" x="0.0" y="5343.333333333333" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="godlychild-ebook" translatesAutoresizingMaskIntoConstraints="NO" id="5eY-wu-XyW">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gc_ebook" translatesAutoresizingMaskIntoConstraints="NO" id="5eY-wu-XyW">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -4254,7 +4370,7 @@ Gifted Books and Media</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X8t-ck-Mhu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6004" y="-611"/>
+            <point key="canvasLocation" x="-7500" y="-813"/>
         </scene>
         <!--Apple Books-->
         <scene sceneID="Obx-na-RSW">
@@ -4279,7 +4395,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gaY-El-54m">
                                                 <rect key="frame" x="0.0" y="40" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ea-book" translatesAutoresizingMaskIntoConstraints="NO" id="KOd-vh-9t3">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ea_ebook" translatesAutoresizingMaskIntoConstraints="NO" id="KOd-vh-9t3">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -4336,7 +4452,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EaK-4P-FZz">
                                                 <rect key="frame" x="0.0" y="445.33333333333337" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Confession-ebook" translatesAutoresizingMaskIntoConstraints="NO" id="bYw-cf-XV2">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="confession_ebook" translatesAutoresizingMaskIntoConstraints="NO" id="bYw-cf-XV2">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -4394,7 +4510,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iBX-d0-RjE">
                                                 <rect key="frame" x="0.0" y="876.66666666666663" width="393" height="199.99999999999989"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sstc-ebook" translatesAutoresizingMaskIntoConstraints="NO" id="x6k-UJ-7QH">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ssotc_ebook" translatesAutoresizingMaskIntoConstraints="NO" id="x6k-UJ-7QH">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -4451,7 +4567,7 @@ Gifted Books and Media</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lo8-eI-mmJ">
                                                 <rect key="frame" x="0.0" y="1282" width="393" height="200"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rtg-ebook" translatesAutoresizingMaskIntoConstraints="NO" id="PbX-hr-7SY" customClass="app">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rtg_ebook" translatesAutoresizingMaskIntoConstraints="NO" id="PbX-hr-7SY" customClass="app">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
                                                     </imageView>
                                                 </subviews>
@@ -4738,45 +4854,47 @@ Gifted Books and Media</string>
         </scene>
     </scenes>
     <resources>
-        <image name="30R2 Confession" width="600" height="900"/>
+        <image name="365promises_paperback" width="133.33332824707031" height="200"/>
         <image name="Artboard 1" width="648" height="432"/>
-        <image name="CEOC Mock 30" width="600" height="900"/>
-        <image name="Confession-ebook" width="600" height="600"/>
-        <image name="EA Mock 30" width="600" height="900"/>
-        <image name="EOC Mock 30" width="600" height="900"/>
-        <image name="FF Mock 30" width="600" height="900"/>
-        <image name="GC Mock 30" width="600" height="900"/>
-        <image name="GPBAL Mock 30" width="600" height="900"/>
-        <image name="PH Mock 30" width="600" height="900"/>
-        <image name="RTG Mock 30" width="600" height="900"/>
-        <image name="SR Mock 30" width="600" height="900"/>
-        <image name="SSOTC Mock 30" width="600" height="900"/>
-        <image name="TJWM Mock 30" width="600" height="900"/>
-        <image name="YEOC Mock 30" width="600" height="900"/>
-        <image name="bp-ebook" width="600" height="600"/>
-        <image name="ea-book" width="600" height="600"/>
+        <image name="bp_ebook" width="200" height="200"/>
+        <image name="c_eoc_ebook" width="200" height="200"/>
+        <image name="confession_ebook" width="200" height="200"/>
+        <image name="confession_paperback" width="133.33332824707031" height="200"/>
         <image name="ea_appicon" width="300" height="300"/>
-        <image name="eoc-c-ebook" width="600" height="600"/>
-        <image name="eoc-ebook" width="600" height="600"/>
-        <image name="eoc-y-ebook" width="600" height="600"/>
-        <image name="ffpam-ebook" width="600" height="600"/>
+        <image name="ea_ebook" width="200" height="200"/>
+        <image name="ea_paperback" width="266.66665649414062" height="400"/>
+        <image name="eoc_c_paperback" width="133.33332824707031" height="200"/>
+        <image name="eoc_ebook" width="200" height="200"/>
+        <image name="eoc_paperback" width="133.33332824707031" height="200"/>
+        <image name="eoc_y_paperback" width="133.33332824707031" height="200"/>
+        <image name="family_prayer" width="133.33332824707031" height="200"/>
+        <image name="ffpam_ebook" width="200" height="200"/>
+        <image name="ffpam_paperback" width="133.33332824707031" height="200"/>
         <image name="folder.fill" catalog="system" width="128" height="96"/>
         <image name="fp_appicon" width="300" height="300"/>
         <image name="gb-appicon-img" width="278" height="278"/>
-        <image name="godlychild-ebook" width="600" height="600"/>
-        <image name="gw-paperback" width="1800" height="2700"/>
+        <image name="gc_ebook" width="200" height="200"/>
+        <image name="gc_paperback" width="266.66665649414062" height="400"/>
+        <image name="gp_paperback" width="133.33332824707031" height="200"/>
+        <image name="healing_paperback" width="133.33332824707031" height="200"/>
         <image name="hr-appicon-img" width="341.33334350585938" height="341.33334350585938"/>
         <image name="jesus_rosary_appicon" width="300" height="300"/>
         <image name="pencil.circle.fill" catalog="system" width="128" height="123"/>
-        <image name="ph-ebook" width="600" height="600"/>
+        <image name="ph_ebook" width="200" height="200"/>
+        <image name="ph_paperback" width="133.33332824707031" height="200"/>
         <image name="pr-appicon-img" width="341.33334350585938" height="341.33334350585938"/>
-        <image name="pr-paperback" width="1800" height="2700"/>
-        <image name="rtg-ebook" width="600" height="600"/>
-        <image name="sr-ebook" width="600" height="600"/>
+        <image name="pr_paperback" width="133.33332824707031" height="200"/>
+        <image name="rtg_ebook" width="200" height="200"/>
+        <image name="rtg_paperback" width="133.33332824707031" height="200"/>
         <image name="sr_appicon" width="300" height="300"/>
+        <image name="sr_ebook" width="200" height="200"/>
+        <image name="sr_paperback" width="133.33332824707031" height="200"/>
         <image name="ssotc_appicon" width="300" height="300"/>
-        <image name="sstc-ebook" width="600" height="600"/>
-        <image name="tjwm-ebook" width="600" height="600"/>
+        <image name="ssotc_ebook" width="200" height="200"/>
+        <image name="ssotc_paperback" width="133.33332824707031" height="200"/>
+        <image name="tjim_ebook" width="200" height="200"/>
+        <image name="tjim_paperback" width="133.33332824707031" height="200"/>
+        <image name="y_eoc_ebook" width="200" height="200"/>
         <namedColor name="body_background">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
